@@ -1,5 +1,5 @@
 <?php
-$myemail  = 'wellness-oase-ruegen@web.de';
+$myemail  = 'wellnessaufruegen@web.de';
 //$myemail  = 'tom.scheduikat@gmail.com';
 
 /* Check all form inputs using check_input function */
