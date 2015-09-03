@@ -316,7 +316,7 @@ body{
 	padding:0px;
 }
 .frist-box{
-	border-right:1px solid #EEE;	
+	/*border-right:1px solid #EEE;	*/
 }
 .left-box a,
 .large-box a
@@ -1171,9 +1171,17 @@ body {
 }
 
 #menu ul li:hover ul {
-    top: 5%;
+    top: 100px;
 }
 
 #menu .submenu a{
     padding: 10px 5px;
+}
+
+.serviceListing li {
+    padding: 0;
+    display: inline-block;
+}
+.button.button-large a{
+    font-size: 1.3em;
 }
