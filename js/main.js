@@ -5,7 +5,14 @@ header.load('header.html', function() {
 $( ".footer" ).load('footer.html') ;
 
 $(document).on('ready', function() {
+    resizeDivs();
+});
 
+$( window ).resize(function() {
+    resizeDivs();
+});
+
+function resizeDivs() {
     $.each($('div.section'), function(key, section){
         var maxHeight = 0;
         $.each($(section).find('div.images_1_of_3'), function(key2, column) {
@@ -15,5 +22,4 @@ $(document).on('ready', function() {
         });
         $(section).find('div.images_1_of_3').height(maxHeight + 'px');
     });
-});
-
+}

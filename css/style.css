@@ -1185,3 +1185,7 @@ body {
 .button.button-large a{
     font-size: 1.3em;
 }
+.serviceHeadImage img {
+    width: 100%;
+}
+
