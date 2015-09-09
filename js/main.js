@@ -5,11 +5,11 @@ header.load('header.html', function() {
 $( ".footer" ).load('footer.html') ;
 
 $(document).on('ready', function() {
-    resizeDivs();
+    //resizeDivs();
 });
 
 $( window ).resize(function() {
-    resizeDivs();
+    //resizeDivs();
 });
 
 function resizeDivs() {
