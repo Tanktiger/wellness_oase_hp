@@ -1189,6 +1189,11 @@ body {
     width: 100%;
 }
 
+@media screen and (max-width: 780px) {
+    #menu ul li:hover ul {
+        top: -9999px;
+    }
+}
 .services-height-line1 {
     height: 474px;
 }
