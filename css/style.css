@@ -1146,8 +1146,15 @@ body {
 .hide {
     display: none;
 }
-.greenGradient {
+.greenGradientTopDown {
     background-image: linear-gradient(#71BF44 25%, white 50%);
+}
+.greenGradientDownTop {
+    background-image: linear-gradient(white 60%, #71BF44 100%);
+}
+.greenGradientTopDown p,
+.greenGradientDownTop p{
+    color: #000
 }
 .images_1_of_3 li a {
     color: #000;
@@ -1202,4 +1209,7 @@ body {
 }
 .services-height-line3 {
     height: 570px;
+}
+.underline {
+    text-decoration: underline;
 }
