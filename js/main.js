@@ -6,7 +6,15 @@ $( ".footer" ).load('footer.html') ;
 
 $(document).on('ready', function() {
     //resizeDivs();
+    $(document).on('click','#pull' , function(e) {
+        menu        = $('#mainmenu');
+        menuHeight  = menu.height();
+        console.log(menu);
+        e.preventDefault();
+        menu.slideToggle("slow");
+    });
 });
+
 
 $( window ).resize(function() {
     //resizeDivs();
