@@ -1213,3 +1213,11 @@ body {
 .underline {
     text-decoration: underline;
 }
+
+.left-box1 .description,
+.left-box1 .image {
+    display: inline-block;
+}
+.left-box1 .description {
+    width: 54%;
+}
