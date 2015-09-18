@@ -34,7 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="wrap">
             <div class="logo">
                 <a href="index.html" title="Wellness Oase - Startseite">
-                    <img src="images/logo_small.png" title="Wellness Oase Rügen - Sylke Scheduikat" alt="Wellness Oase Rügen - Sylke Scheduikat"/>
+                    <img src="images/wellness-oase-ruegen.png" title="Wellness Oase Rügen - Sylke Scheduikat" alt="Wellness Oase Rügen - Sylke Scheduikat"/>
                 </a>
             </div>
             <div class="top-nav">

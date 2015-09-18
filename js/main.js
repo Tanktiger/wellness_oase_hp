@@ -9,9 +9,16 @@ $(document).on('ready', function() {
     $(document).on('click','#pull' , function(e) {
         menu        = $('#mainmenu');
         menuHeight  = menu.height();
-        console.log(menu);
         e.preventDefault();
         menu.slideToggle("slow");
+    });
+    $( window ).resize(function() {
+        var ww = $(window).width();
+        if (ww > 1180) {
+            $('#mainmenu').show();
+        } else if (ww < 1180) {
+            $('#mainmenu').hide();
+        }
     });
 });
 

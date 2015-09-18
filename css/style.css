@@ -254,16 +254,16 @@ body{
 	color:#009FE3;
 }
 .last ul li{
-	background: url(../images/marker.png) 0 10px no-repeat;
+	background: url(../images/rating_off.png) 0 10px no-repeat;
 	padding-left: 18px;
-	padding: 5px 21px;
+	padding: 10px 35px;
 	border-bottom: 1px solid #EEE;
 }
 .last ul li a:hover{
 	color:#6A6B6A;
 }
 .last ul li:hover{
-	background: url(../images/marker1.png) 0 10px no-repeat;
+	background: url(../images/rating_on.png) 0 10px no-repeat;
 }
 .last ul{
 	padding: 0px 0px 16px 0px;
@@ -927,7 +927,7 @@ body{
 /* Anpassungen ***/
 /*****************/
 .qualifications ul li{
-    padding: 6px 21px;
+    padding: 10px 35px;
 }
 .about,
 .gallerysite,
@@ -1217,7 +1217,7 @@ body {
 
 @media screen and (max-width: 1680px) {
 	.top-nav ul li a {
-		padding: 45px 8px;
+		/*padding: 45px 8px;*/
 	}
 }
 @media screen and (max-width: 1200px) {
@@ -1238,6 +1238,9 @@ body {
 	.top-nav ul li {width:100%;float: none;text-align: center;}
 	.top-nav ul li a{padding: 15px 0;}
 	.logo {float: left;}
+}
+@media screen and (min-width: 1201px) {
+    #mainmenu {display: block;}
 }
 .services-height-line1 {
     height: 474px;
