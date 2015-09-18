@@ -1242,14 +1242,15 @@ body {
 @media screen and (min-width: 1201px) {
     #mainmenu {display: block;}
 }
+
 .services-height-line1 {
-    height: 474px;
+    min-height: 474px;
 }
 .services-height-line2 {
-    height: 470px;
+    min-height: 470px;
 }
 .services-height-line3 {
-    height: 310px;
+    min-height: 365px;
 }
 .underline {
     text-decoration: underline;
@@ -1262,4 +1263,19 @@ body {
 .left-box1 .description {
     width: 54%;
 }
-
+.text-center {
+    text-align: center;
+}
+a.headline-link {
+    font-size:100%;
+    padding: 0;
+    line-height: normal;
+    background: none;
+}
+a.headline-link:hover {
+    background: none;
+    color:#03518A;
+}
+.index-box-height {
+    height: 530px;
+}

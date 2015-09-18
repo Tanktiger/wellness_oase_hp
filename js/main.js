@@ -2,10 +2,13 @@ var header = $( ".header" );
 header.load('header.html', function() {
     header.find('li.' + header.data('active')).addClass('active');
 }) ;
+
 $( ".footer" ).load('footer.html') ;
 
+$('#serviceButtonGroup').load('serviceButtonGroup.html');
+
+//resizeDivs();
 $(document).on('ready', function() {
-    //resizeDivs();
     $(document).on('click','#pull' , function(e) {
         menu        = $('#mainmenu');
         menuHeight  = menu.height();
@@ -33,6 +36,7 @@ function resizeDivs() {
         $.each($(section).find('div.images_1_of_3'), function(key2, column) {
             if ($(column).height() > maxHeight) {
                 maxHeight = $(column).height();
+                maxHeight = maxHeight;
             }
         });
         $(section).find('div.images_1_of_3').height(maxHeight + 'px');

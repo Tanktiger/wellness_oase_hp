@@ -56,7 +56,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="content">
         <div class="wrap">
             <div class="about">
-                <h1>Unsere Sonderangebote</h1>
+                <h1>Unsere Sonderangebote - Wellness Oase Rügen</h1>
                 <div class="clear"> </div>
                 <div class="box">
                     <div class="large-box offerList">
