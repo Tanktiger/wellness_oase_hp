@@ -115,9 +115,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
 
             request.done(function( data ) {
-                $( ".statusMsg" ).html( data.msg );
-                $('#submitContact').show();
-                _gaq.push(['_trackEvent', 'Contact', 'Send', name, email]);
+                $( ".statusMsg" ).html( data.msg).show();
+//                $('#submitContact').show();
+//                _gaq.push(['_trackEvent', 'Contact', 'Send', name, email]);
             });
 
             request.fail(function( jqXHR, textStatus ) {
