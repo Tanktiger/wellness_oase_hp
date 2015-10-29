@@ -357,7 +357,8 @@ body{
 	background: #FFF;
 }
 .right-box h3,
-.right-box h2{
+.right-box h2,
+h2.subhead {
 	font-family: 'Karla', sans-serif;
 	color:#009FE3;
 	text-transform: uppercase;
@@ -1278,4 +1279,12 @@ a.headline-link:hover {
 }
 .index-box-height {
     height: 530px;
+}
+.large-box.greenGradientDownTop {
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+}
+.images_1_of_3.greenGradientDownTop  {
+    border: 1px solid #e6e6e6;
+    border-radius: 5%;
 }
