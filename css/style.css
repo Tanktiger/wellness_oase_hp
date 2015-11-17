@@ -363,6 +363,9 @@ h2.subhead {
 	color:#009FE3;
 	text-transform: uppercase;
 	font-size: 1.7em;
+    border-bottom: 1px solid #EEE;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 .right-box-grid-img{
 	float:left;
@@ -1287,4 +1290,13 @@ a.headline-link:hover {
 .images_1_of_3.greenGradientDownTop  {
     border: 1px solid #e6e6e6;
     border-radius: 5%;
+}
+.giftcardlink a {
+    background: url(../images/rating_off.png) 0 10px no-repeat;
+    font-size: 1em;
+    padding: 14px 22px 14px 42px;
+    display: block;
+}
+.giftcardlink a:hover {
+    background: url(../images/rating_on.png) 0 10px no-repeat;
 }
