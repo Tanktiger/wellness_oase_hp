@@ -1,0 +1,61 @@
+<div ng-switch="state">
+    <div ng-switch-when="success">
+        <div class="wrap">
+            <div class="services">
+                <h1>Unsere Angebote</h1>
+                <div ng-if="data.categories !== undefined" >
+                    <div class="section group" ng-repeat="category in data.categories" ng-if="$index % 3 == 0" >
+                        <div class="grid_1_of_3 " ng-if="data.categories[$index ] !== undefined" ng-class="$last ? 'images_1_of_1' : 'images_1_of_3'"><!--ng-class="{'images_1_of_1':$last}"-->
+                            <div ng-if="data.categories[$index].thumbnail !== null" >
+                                <a href="/angebote/{{data.categories[$index].slug}}" title="{{data.categories.name}}">
+                                    <img src="{{data.categories[$index].thumbnail}}" alt="{{data.categories.name}}" title="{{data.categories.name}}">
+                                </a>
+                            </div>
+                            <h5>{{data.categories[$index].name}}</h5>
+                            <p>
+                                {{data.categories[$index].description}}
+                            </p>
+                            <div class="button"><span><a href="/angebote/{{data.categories[$index].slug}}" title="Massage">{{data.categories[$index].name}} - Angebote</a></span></div>
+                        </div>
+                        <div class="grid_1_of_3 images_1_of_3" ng-if="data.categories[$index + 1] !== undefined">
+                            <div ng-if="data.categories[$index + 1].thumbnail !== null" >
+                                <a href="/angebote/{{data.categories[$index + 1].slug}}" title="{{data.categories[$index + 1].name}}">
+                                    <img src="{{data.categories[$index + 1].thumbnail}}" alt="{{data.categories[$index + 1].name}}" title="{{data.categories[$index + 1].name}}">
+                                </a>
+                            </div>
+                            <h5>{{data.categories[$index + 1].name}}</h5>
+                            <p>
+                                {{data.categories[$index + 1].description}}
+                            </p>
+                            <div class="button"><span><a href="/angebote/{{data.categories[$index + 1].slug}}" title="Massage">{{data.categories[$index + 1].name}} - Angebote</a></span></div>
+                        </div>
+                        <div class="grid_1_of_3 images_1_of_3" ng-if="data.categories[$index + 2] !== undefined">
+                            <div ng-if="data.categories[$index + 2].thumbnail !== null" >
+                                <a href="/angebote/{{data.categories[$index + 2].slug}}" title="{{data.categories[$index + 2].name}}">
+                                    <img src="{{data.categories[$index + 2].thumbnail}}" alt="{{data.categories[$index + 2].name}}" title="{{data.categories[$index + 2].name}}">
+                                </a>
+                            </div>
+                            <h5>{{data.categories[$index + 2].name}}</h5>
+                            <p>
+                                {{data.categories[$index + 2].description}}
+                            </p>
+                            <div class="button"><span><a href="/angebote/{{data.categories[$index + 2].slug}}" title="Massage">{{data.categories[$index + 2].name}} - Angebote</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <h4><a href="/etikette" title="Etikette und Kosten">Wellness-Etikette und Kostenübernahme</a></h4>
+                <div class="clear"> </div>
+            </div>
+        </div>
+    </div>
+    <div ng-switch-when="loading">
+        <div class="loadingImage">
+            <img src="images/ajax-loader.gif" class="loading">
+        </div>
+    </div>
+    <div ng-switch-when="error">
+        <h1>Fehler beim Laden der Seite</h1>
+        <p>Es tut uns leid aber es ist ein Fehler beim Laden der Seite aufgetreten. Bitte versuchen Sie es später erneut!</p>
+    </div>
+</div>
+

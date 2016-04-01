@@ -1,0 +1,57 @@
+<div ng-if="category !== undefined">
+    <div class="wrap">
+        <div class="services">
+            <h1>{{category.name}} - Wellness Oase Rügen</h1>
+            <div ng-if="category.image !== null">
+                <img class="header-image" ng-src="images/{{category.image}}">
+            </div>
+            <div class="large-box">
+                <ul>
+                    <li ng-repeat="service in category.services">
+                        <h3><a href="#" ui-sref="main.detail({alias: category.alias, slug: service.alias})"> {{service.name}}</a> <span class="pull-right">{{service.time}} min - {{service.price}}€</span></h3>
+                        <p>{{service.desc}}</p>
+                        <div ng-if="service.giftcard" class="giftcardlink"><span><a href="{{service.giftcard}}" title="{{service.name}} Gutschein">Hier Gutschein kaufen</a></span></div>
+                    </li>
+                </ul>
+                <!--<div class="left-box1 " ng-repeat="service in data.entities">-->
+                    <!--<h5>{{service.name}} <span ng-if="service.glowe">*</span></h5>-->
+                    <!--<p>-->
+                        <!--{{service.description}}-->
+                    <!--</p>-->
+                    <!--<span ng-if="service.duration && service.price">{{service.duration}} min - {{service.price}} € </span>-->
+                    <!--<span ng-repeat="subservice in service.subServices">{{subservice.name}} ({{subservice.duration}} min) - {{subservice.price}} € <br></span>-->
+                <!--</div>-->
+                <div class="clear"></div>
+            </div>
+            <div id="serviceButtonGroup">
+                <div class="large-box">
+                    <div class="large-inner-box">
+                        <p>Wissen Sie nicht genau welche Anwendung Sie als Gutschein verschenken wollen? Dann verschenken Sie einfach einen Geldwergutschein:</p>
+                        <div class="button button-large dplib"><span><a href="http://www.gurado.de/wellnessaufruegen/massagen/geldwert-gutschein.html" title="Geldwert Gutschein">Geldwertgutschein kaufen</a></span></div>
+                        <div class="button button-large dplib"><span><a href="#" ui-sref="main.contact" title="Termin anfragen">Hier Einen Termin anfragen</a></span></div>
+                    </div>
+
+                    <div class="clear"> </div>
+                </div>
+            </div>
+            <div class="large-box">
+                <div class="large-inner-box">
+                    <h4>Andere Angebote</h4>
+                    <ul class="serviceListing">
+                        <li ng-repeat="product in products"><a href="#" ui-sref="main.category({alias: product.alias})" title="{{ product.name }}">{{ product.name }}</a></li>
+                    </ul>
+                    <div class="button dplib"><span><a href="#" ui-sref="main.categories" title="Alle Angebote">Angebots&uuml;bersicht</a></span></div>
+                    <div class="button dplib"><span><a href="#" ui-sref="main.etikette" title="Wellness Etikette">Wellness-etikette, Zahlungsmodalit&auml;ten</a></span></div>
+                    <div class="button dplib"><span><a href="#" ui-sref="main.gallery" title="Wellness Oase Gallerie">Bildergalerie</a></span></div>
+                </div>
+                <div class="clear"> </div>
+            </div>
+            <div class="large-box">
+                <div class="large-inner-box">
+                    <span>* nicht in der Wellness-Oase "Sandstrand Ostseeperle" in Glowe möglich!</span>
+                </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+    </div>
+</div>

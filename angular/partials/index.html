@@ -1,0 +1,112 @@
+<div class="image-slider">
+    <div class="wrap">
+        <ul class="rslides" id="slider1">
+            <li><img src="images/kreidemassage-breit_small.jpg" alt="Kreidemassage" title="Unsere Kreidemassage"></li>
+            <li><img src="images/romantikbad-breit_small.jpg" alt="Romatikbad" title="Unser Romatikbad"></li>
+            <li><img src="images/algen-breit_small.jpg" alt="Algenpackung" title="Unsere Algenpackung"></li>
+            <li><img src="images/badewanne-breit_small.jpg" alt="Wohlfühlbad" title="Das Wohlfühlbad"></li>
+            <li><img src="images/kreidebad-breit_small.jpg" alt="Kreidebad" title="Unser Kreidebad"></li>
+            <li><img src="images/romantik-breit_small.jpg" alt="Romatik für zwei" title="Die Romatik für zwei"></li>
+            <li><img src="images/kreide1-breit_small.jpg" alt="Kreidepackung" title="Unsere Kreidepackung"></li>
+        </ul>
+    </div>
+    <div class="clear"> </div>
+</div>
+
+<div class="shadow">
+    <img src="images/shadow.png" alt="Schatten" title="Schatten" />
+</div>
+<!--<div id="offers" class="scrollingText">-->
+    <!--<p class="loading"><img src="images/lightbox/loading.gif"> Lädt Sonderangebote</p>-->
+    <!--<h3 style="display: none;">Sonderangebote: </h3>-->
+<!--</div>-->
+<div class="clear"> </div>
+<div class="">
+    <div class="wrap">
+        <div class="grids">
+            <div class="section group">
+                <div class="grid_1_of_3 images_1_of_3">
+                    <h2>Willkommen!</h2>
+                    <img class="notGreyImage" src="images/willkommen_small.jpg" title="Willkommen in der Wellness Oase Sylke Scheduikat" alt="Willkommen in der Wellness Oase Sylke Scheduikat">
+                    <p>
+                        Egal ob Sie Gast in einem unserer H&auml;user sind, Einheimischer oder in der Umgebung Ihren Urlaub genie&szlig;en, Sie k&ouml;nnen sich alle bei uns verw&ouml;hnen lassen!
+                    </p>
+                </div>
+                <div class="grid_1_of_3 images_1_of_3">
+                    <h2>&Uuml;ber Uns</h2>
+                    <img class="notGreyImage" src="images/logo_small.png" title="Wellness Oase - Sylke Scheduikat" alt="Wellness Oase - Sylke Scheduikat">
+                    <p>
+                        Unter Leitung von Heilpraktikerin Sylke Scheduikat arbeiten ausschlie&szlig;lich ausgebildete Fachkr&auml;fte wie Physiotherapeuten, Masseure und Kosmetiker in unserem Team.
+                        Unser Motto: <b>"Es ist immer der Mensch der wichtigste, den wir gerade behandeln"</b>
+                        Wir bieten fachgerechte Behandlungen in entspannter Atmosph&auml;re mit r&uuml;genspezifischen Produkten, sowie Dr. Spiller Biokosmetik.
+                    </p>
+                    <div class="button"><span><a href="about.html" title="Über die Wellness Oase und die Inhaberin">Mehr erfahren</a></span></div>
+                </div>
+                <div class="grid_1_of_3 images_1_of_3 last">
+                    <h2>Unsere Angebote</h2>
+                    <div ng-switch="state">
+                        <div ng-switch-when="loading">
+                            <div class="loadingImage">
+                                <img src="images/ajax-loader.gif" class="loading">
+                            </div>
+                        </div>
+                        <div ng-switch-when="success">
+                            <ul>
+                                <li ng-repeat="category in data.categories">
+                                    <a href="/angebote/{{category.slug}}" title="{{category.name}}">{{category.name}}</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div ng-switch-when="error">
+                            <h1>Fehler beim Laden der Angebote</h1>
+                        </div>
+                    </div>
+
+                    <div class="button"><span><a href="services.html" title="Alle Angebote">Angebots&uuml;bersicht</a></span></div>
+                </div>
+            </div>
+            <div class="clear"> </div>
+            <div class="box">
+                <div class="large-box">
+                    <h2>Wir begr&uuml;&szlig;en Sie in unseren beiden Wellness-Oasen und in der Naturheilpraxis</h2>
+                    <p>&nbsp;</p>
+                    <div class="left-box1 frist-box">
+                        <h5>Wellness-Oase Juliusruh</h5>
+                        <p>
+                            Unsere Hauptgesch&auml;ftsstelle ist die Wellness-Oase in Juliusruh, die dem Hotel "Atrium am Meer" angeschlossen ist. Hier erwartet Sie eine Saunalandschaft
+                            mit drei Saunen: eine finnische Sauna, ein Dampfbad und eine Biosauna. Au&szlig;erdem finden Sie Ruhe
+                            und Entspannung in den beiden lichtdurchfluteten Ruher&auml;umen.<br>
+                            Info Sauna: 038391 4030
+                        </p>
+                        <span>Alle Anwendungen auf dieser Seite k&ouml;nnen Sie in Juliusruh genie&szlig;en.</span>
+                    </div>
+                    <div class="left-box1">
+                        <h5>Wellness-Oase Glowe</h5>
+                        <p>
+                            Die befindet sich im "Apart-Hotel Sandstrand Ostseeperle" in Glowe. Hier erwartet Sie ein sehr sch&ouml;ner
+                            Saunabereich mit drei unterschiedlichen Saunen und einer au&szlig;ergew&ouml;hnlichen Au&szlig;enterrasse mit Meerblick.<br>
+                            Info Sauna: 038302 56380
+                        </p>
+                        <span>Alle Anwendungen, die mit einem * gekennzeichnet sind, k&ouml;nnen nicht in der Wellness-Oase Glowe durchgef&uuml;hrt werden.</span>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+                <div class="large-box">
+                    <div class="large-inner-box">
+                        <h5>Naturheilpraxis Juliusruh</h5>
+                        <p>
+                            Die Naturheilpraxis befindet sich in den R&auml;umen der Wellness-Oase in Juliusruh. Angaben zu Qualifikationen und Behandlungsm&ouml;glichkeiten finden
+                            Sie hier:
+                        </p>
+                        <span><a href="sylke-scheduikat" title="Über die Praxis und die Inhaberin">Qualifikationen</a></span>
+                        <span><a href="/angebote/naturheilpraxis" title="Naturheilpraxis">Behandlungen</a></span>
+                        <br>
+                        <h5>Beratung und Behandlungstermine f&uuml;r beide Wellness-Oasen und die Naturheilpraxis unter Tel.: 038391 935675</h5>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+    </div>
+</div>

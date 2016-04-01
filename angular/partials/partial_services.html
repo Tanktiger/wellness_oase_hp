@@ -1,0 +1,48 @@
+<div ng-switch="state">
+    <div ng-switch-when="loading">
+        <div class="loadingImage">
+            <img src="images/ajax-loader.gif" class="loading">
+        </div>
+    </div>
+    <div ng-switch-when="success">
+        <div ng-if="data.category !== undefined">
+            <div class="wrap">
+                <div class="services">
+                    <h1>{{data.category.name}}</h1>
+                    <div ng-if="data.category.image !== null">
+                        <img src="{{data.category.image}}">
+                    </div>
+                    <div class="large-box">
+                        <!--<ul>-->
+                            <!--<li ng-repeat="service in data.entities">-->
+                                <!--<h3>{{service.name}} <span class="pull-right">{{service.duration}} min - {{service.price}}€</span></h3>-->
+                                <!--<p>{{service.description}}</p>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                        <div class="left-box1 " ng-repeat="service in data.entities">
+                            <h5>{{service.name}} <span ng-if="service.glowe">*</span></h5>
+                            <p>
+                                {{service.description}}
+                            </p>
+                            <span ng-if="service.duration && service.price">{{service.duration}} min - {{service.price}} € </span>
+                            <span ng-repeat="subservice in service.subServices">{{subservice.name}} ({{subservice.duration}} min) - {{subservice.price}} € <br></span>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="large-box">
+                        <div class="large-inner-box">
+                            <span>* nicht in der Wellness-Oase "Sandstrand Ostseeperle" in Glowe möglich!</span>
+                        </div>
+                        <div class="clear"> </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-switch-when="error">
+        <h1>Fehler beim Laden der Seite</h1>
+        <p>Es tut uns leid aber es ist ein Fehler beim Laden der Seite aufgetreten. Bitte versuchen Sie es später erneut!</p>
+    </div>
+</div>
+

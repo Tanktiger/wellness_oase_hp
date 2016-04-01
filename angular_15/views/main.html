@@ -1,0 +1,13 @@
+<div id="wrapper">
+    <div data-ng-include="'views/tpl/header.html'" data-ng-controller="HeaderController" class="header"> </div>
+    <div class="clear"> </div>
+    <div ui-view class="fade-in-up content"> </div>
+    <div class="clear"> </div>
+    <div class="footer" data-ng-include="'views/tpl/footer.html'" data-ng-controller="FooterController"> </div>
+    <div class="clear"> </div>
+</div>
+<div ng-if="vm.dataLoading" class="page-spinner-bar">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+</div>

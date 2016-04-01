@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Massagen",
+    "alias": "massagen",
+    "image": "massage-breit.jpg",
+    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
+    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
+    "services": [
+      {
+        "name": "RELAX RÜCKENMASSAGE",
+        "image": "kreidemassage.jpg",
+        "alias": "relax-rueckenmassage",
+        "desc": "Massage vom Kreuzbein bis zum Haaransatz zur Entspannung und Muskellockerung",
+        "price": "29",
+        "time": "25",
+        "giftcard": "http://www.gurado.de/wellnessaufruegen/relax-ruckenmassage.html",
+        "glowe": true
+      },
+      {
+        "name": "RÜCKEN INDIVIDUELL",
+        "alias": "ruecken-individuell",
+        "desc": "Wir behandeln Ihr Rückenproblem individuell mit unterschiedlichen Massage- und Behandlungstechniken. Diese Anwendung wird nur von ausgebildeten Masseuren und Physiotherapeuten durchgeführt. Beachten Sie auch unser Angebot \"Rücken intensiv\".",
+        "price": "33",
+        "time": "25",
+        "giftcard": "http://www.gurado.de/wellnessaufruegen/massagen/ruckenmassage-individuell-25min.html",
+        "glowe": true
+      },
+      {
+        "name": "ANTI STRESSMASSAGE",
+        "alias": "anti-stressmassage",
+        "desc": "Entspannende Schulter- Nacken- Kopfmassage mit sanfter Dehnung der Halswirbelsäule. Sehr zu empfehlen bei Spannungskopfschmerzen, Nervosität und zum Stressabbau",
+        "price": "29",
+        "time": "25",
+        "giftcard": "http://www.gurado.de/wellnessaufruegen/massagen/anti-stressmassage-25min.html",
+        "glowe": true
+      }
+    ]
+  }
+]
