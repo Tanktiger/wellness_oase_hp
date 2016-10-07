@@ -7,10 +7,18 @@
             </div>
             <div class="large-box">
                 <ul>
-                    <li ng-repeat="service in category.services">
-                        <h3><a href="#" ui-sref="main.detail({alias: category.alias, slug: service.alias})"> {{service.name}}</a> <span class="pull-right">{{service.time}} min - {{service.price}}€</span></h3>
-                        <p>{{service.desc}}</p>
-                        <div ng-if="service.giftcard" class="giftcardlink"><span><a href="{{service.giftcard}}" title="{{service.name}} Gutschein">Hier Gutschein kaufen</a></span></div>
+                    <li class="new-list" ng-repeat="service in category.services">
+                        <h3>
+                            <a ng-if="service.alias" href="#" class="name" ui-sref="main.detail({alias: category.alias, slug: service.alias})">
+                                {{service.name}} <span ng-if="service.glowe == false">*</span>
+                            </a>
+                            <span ng-if="service.alias === undefined">{{service.name}} <span ng-if="service.glowe == false">*</span></span>
+                            <span ng-if="service.time && service.price" class="service-price">{{service.time}} min - {{service.price}} €</span>
+                        </h3>
+                        <p ng-if="service.desc">{{service.desc}}</p>
+                        <p ng-if="service.info">{{service.info}}</p>
+                        <p class="info-text" ng-if="service.services" ng-repeat="subservice in service.services">{{subservice.name}} <span ng-if="subservice.time">({{subservice.time}} min)</span> - {{subservice.price}} €</p>
+                        <span class="giftcardlink"><a ui-sref="main.contact" title="{{service.name}} Gutschein hier beantragen">Hier Gutschein anfragen</a></span>
                     </li>
                 </ul>
                 <!--<div class="left-box1 " ng-repeat="service in data.entities">-->
@@ -26,11 +34,8 @@
             <div id="serviceButtonGroup">
                 <div class="large-box">
                     <div class="large-inner-box">
-                        <p>Wissen Sie nicht genau welche Anwendung Sie als Gutschein verschenken wollen? Dann verschenken Sie einfach einen Geldwergutschein:</p>
-                        <div class="button button-large dplib"><span><a href="http://www.gurado.de/wellnessaufruegen/massagen/geldwert-gutschein.html" title="Geldwert Gutschein">Geldwertgutschein kaufen</a></span></div>
                         <div class="button button-large dplib"><span><a href="#" ui-sref="main.contact" title="Termin anfragen">Hier Einen Termin anfragen</a></span></div>
                     </div>
-
                     <div class="clear"> </div>
                 </div>
             </div>
@@ -40,7 +45,6 @@
                     <ul class="serviceListing">
                         <li ng-repeat="product in products"><a href="#" ui-sref="main.category({alias: product.alias})" title="{{ product.name }}">{{ product.name }}</a></li>
                     </ul>
-                    <div class="button dplib"><span><a href="#" ui-sref="main.categories" title="Alle Angebote">Angebots&uuml;bersicht</a></span></div>
                     <div class="button dplib"><span><a href="#" ui-sref="main.etikette" title="Wellness Etikette">Wellness-etikette, Zahlungsmodalit&auml;ten</a></span></div>
                     <div class="button dplib"><span><a href="#" ui-sref="main.gallery" title="Wellness Oase Gallerie">Bildergalerie</a></span></div>
                 </div>

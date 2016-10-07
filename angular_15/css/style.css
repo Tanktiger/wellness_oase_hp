@@ -762,6 +762,10 @@ h2.subhead {
    .contact-form input[type="text"],.contact-form textarea{
 		width:97%;
 	}
+    .images_1_of_3 img {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -783,6 +787,10 @@ h2.subhead {
 	.contact-form input[type="text"],.contact-form textarea{
 		width:92%;
 	}
+    .images_1_of_3 img {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 /*----responsive design----*/
 @media only screen and (max-width: 1366px) and (min-width: 1280px) {
@@ -825,13 +833,19 @@ h2.subhead {
 		width: 68.18%;
 	}
 }
+
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
 	.wrap{
 		width:90%;
 	}
-	.images_1_of_3 {
-		width: 29%;
-	}
+    .images_1_of_3 {
+        width: 92%;
+        padding: 4%;
+    }
+    .images_1_of_3 img {
+        margin-right: auto;
+        margin-left: auto;
+    }
 	.last ul li:nth-child(1),.last ul li:nth-child(2){
 		display:none;
 	}
@@ -870,8 +884,13 @@ h2.subhead {
 		padding: 24px 4px;
 	}
 	.images_1_of_3 {
-		width: 28.91%;
+		width: 92%;
+        padding: 4%;
 	}
+    .images_1_of_3 img {
+        margin-right: auto;
+        margin-left: auto;
+    }
 	.last ul li:nth-child(1),.last ul li:nth-child(2),.last ul li:nth-child(3),.last ul li:nth-child(4){
 		display:none;
 	}
@@ -1414,4 +1433,23 @@ AngularJS Basic Animations
 
 .content .header-image {
     width: 100%;
+}
+
+.large-box .new-list a.name {
+    background: none;
+    padding: 0;
+}
+
+p.info-text {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.service-price {
+    float: right;
+}
+@media screen and (max-width: 1200px) {
+    .service-price {
+        float: none;
+    }
 }

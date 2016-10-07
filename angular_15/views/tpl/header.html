@@ -9,18 +9,17 @@
         <a href="#" id="pull"><i class="menu-icon"></i> </a>
         <div class="clear"> </div>
         <ul id="mainmenu">
-            <li class="nav-index"><a href="#" ui-sref="main.start" title="Wellness-Oase Startseite">Start</a></li>
-            <li class="nav-services">
-                <a href="#" title="Wellness-Oase Angebote">Angebote</a>
+            <li class="nav-index" ng-class="{'active': $state.includes('main.start')}"><a href="#" ui-sref="main.start" title="Wellness-Oase Startseite">Start</a></li>
+            <li class="nav-services" ng-class="{'active': $state.includes('main.category') || $state.includes('main.detail')}">
+                <a href="#" ui-sref="main.overview" title="Wellness-Oase Angebote">Angebote</a>
                 <ul>
                     <li class="submenu" ng-repeat="product in products"><a href="#" ui-sref="main.category({alias: product.alias})" title="{{ product.name }}">{{ product.name }}</a></li>
                 </ul>
             </li>
-            <li class="nav-nature"><a href="#" ui-sref="main.category({alias: 'naturheilpraxis'})" title="Naturheilpraxis Sylke Scheduikat">Naturheilpraxis</a></li>
+            <li class="nav-nature" ng-class="{'active': $state.includes('main.nature')}"><a href="#" ui-sref="main.nature" title="Naturheilpraxis Sylke Scheduikat">Naturheilpraxis</a></li>
             <!--<li class="nav-gallery"><a href="gallery.html" title="Wellness-Oase Bildergallerie">Gallerie</a></li>-->
             <!--<li class="nav-etikette"><a href="etikette.html" title="Wellnessetikette, Zahlungsmodalit&auml;ten, Kosten&uuml;bernahme private Krankenkasse">Wellness-Etikette</a></li>-->
-            <li class="nav-partner"><a href="http://www.gurado.de/wellnessaufruegen" title="Wellness-Oase Unsere Gutscheine">Gutscheine</a></li>
-            <li class="nav-contact"><a ui-sref="main.contacr" title="Wellness-Oase Kontakt">Kontakt</a></li>
+            <li class="nav-contact" ng-class="{'active': $state.includes('main.contact')}"><a ui-sref="main.contact" title="Wellness-Oase Kontakt">Kontakt</a></li>
         </ul>
     </div>
     <div class="clear"> </div>

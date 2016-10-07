@@ -4,14 +4,14 @@
             <h1>{{product.name}}</h1>
             <div class="large-box service-overview">
                 <div class="left-box1 frist-box">
-                    <img ng-src="images/{{ product.image }}" alt="{{product.name}} Bild" title="{{product.name}}">
+                    <img ng-if="product.image" ng-src="images/{{ product.image }}" alt="{{product.name}} Bild" title="{{product.name}}">
+                    <img ng-if="product.image === undefined" src="images/services-defaukt.jpg" alt="{{product.name}} Bild" title="{{product.name}}">
                 </div>
                 <div class="left-box1 ">
                     <h4>Beschreibung</h4>
                     <p>{{product.desc}}</p>
                     <h4><span>Dauer: {{product.time}} min</span> <span class="fright">Preis: {{product.price}} €</span></h4>
-                    <div class="button button-large"><span><a href="{product.giftcard}}" title="{{product.name}} Gutschein">Hier Gutschein kaufen</a></span></div>
-                    <div class="button"><span><a href="http://www.gurado.de/wellnessaufruegen/massagen/geldwert-gutschein.html" title="Geldwert Gutschein">Geldwertgutschein kaufen</a></span></div>
+                    <div class="button button-large"><span><a ui-sref="main.contact" title="{{product.name}} Gutschein anfragen">Hier Gutschein anfragen</a></span></div>
                     <div class="button"><span><a href="#" ui-sref="main.contact" title="Termin anfragen">Hier Einen Termin anfragen</a></span></div>
                 </div>
                 <div class="clear"> </div>
@@ -22,7 +22,6 @@
                     <ul class="serviceListing">
                         <li ng-repeat="product in products"><a href="#" ui-sref="main.category({alias: product.alias})" title="{{ product.name }}">{{ product.name }}</a></li>
                     </ul>
-                    <div class="button dplib"><span><a href="#" ui-sref="main.categories" title="Alle Angebote">Angebots&uuml;bersicht</a></span></div>
                     <div class="button dplib"><span><a href="#" ui-sref="main.etikette" title="Wellness Etikette">Wellness-etikette, Zahlungsmodalit&auml;ten</a></span></div>
                     <div class="button dplib"><span><a href="#" ui-sref="main.gallery" title="Wellness Oase Gallerie">Bildergalerie</a></span></div>
                 </div>
