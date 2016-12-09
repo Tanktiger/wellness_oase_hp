@@ -1,126 +1,103 @@
 [
   {
-    "name": "Massagen",
+    "name": "Massagen / Manuelle Lymphdrainagen",
     "alias": "massagen",
     "image": "massage-breit.jpg",
     "image_small": "kreidemassage-breit_small.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
+    "pageTitle": "Massage- & Naturheilpraxis - Massagen /Manuelle Lymphdrainagen",
     "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "description": "Massagen werden vorwiegend zum Lösen von Verspannungen, zur Durchblutungssteigerung und zur Schmerzlinderung eingesetzt. Da sanfte Berührungen der Haut aber auch positiv auf die Psyche wirken, kann man eine Massage auch einfach nur genießen, sich fallen lassen und entspannen.",
     "services": [
       {
-        "name": "RELAX RÜCKENMASSAGE",
+        "name": "Klassische Massagen",
         "image": "kreidemassage.jpg",
-        "alias": "relax-rueckenmassage",
-        "desc": "Massage vom Kreuzbein bis zum Haaransatz zur Entspannung und Muskellockerung",
-        "price": "29",
-        "time": "25",
-        "glowe": true
+        "alias": "klassische-massage",
+        "desc": "Massagen werden vorwiegend zum Lösen von Verspannungen, zur Durchblutungs-steigerung und zur Schmerzlinderung eingesetzt. Da sanfte Berührungen der Haut aber auch positiv auf die Psyche wirken, kann sie auch sehr gut bei nervlicher Überlastung, Nervosität und Stress eingesetzt werden.",
+        "services": [
+          {
+            "name": "klass. Rückenmassage",
+            "price": "30",
+            "time": "25"
+          },
+          {
+            "name": "Hot Stone Rückenmassage",
+            "price": "30",
+            "time": "25"
+          },
+          {
+            "name": "Fußmassage",
+            "price": "30",
+            "time": "25"
+          },
+          {
+            "name": "Hand- Armmassage",
+            "price": "30",
+            "time": "25"
+          },
+          {
+            "name": "Beinmassage",
+            "price": "30",
+            "time": "25"
+          },
+          {
+            "name": "Gesichtsmassage",
+            "price": "30",
+            "time": "25"
+          }
+        ]
       },
       {
-        "name": "RÜCKEN INDIVIDUELL",
-        "alias": "ruecken-individuell",
-        "desc": "Wir behandeln Ihr Rückenproblem individuell mit unterschiedlichen Massage- und Behandlungstechniken. Diese Anwendung wird nur von ausgebildeten Masseuren und Physiotherapeuten durchgeführt. Beachten Sie auch unser Angebot \"Rücken intensiv\".",
-        "price": "33",
-        "time": "25",
-        "glowe": false
+        "name": "Individuelle Teilkörper- oder Ganzkörpermassage",
+        "alias": "individuelle-massage",
+        "desc": "Nach einem kurzen Gespräch stelle ich mich mit unterschiedlichen Massagetechniken auf Ihre akuten oder chronischen Probleme ein. Entspannend und beruhigend, oder kräftigend und anregend. Es können Elemente aus der klassischen Massage, Lymphdrainage, Reflexzonenmassage sowie Tiefenwärme mit der Hot Stone Massage einfließen. Wir finden gemeinsam die richtige Massagekombination für Sie.",
+        "services": [
+          {
+            "name": "Dauer",
+            "price": "35",
+            "time": "25"
+          },
+          {
+            "name": "Dauer",
+            "price": "70",
+            "time": "50"
+          }
+        ]
       },
       {
-        "name": "ANTI STRESSMASSAGE",
-        "alias": "anti-stressmassage",
-        "desc": "Entspannende Schulter- Nacken- Kopfmassage mit sanfter Dehnung der Halswirbelsäule. Sehr zu empfehlen bei Spannungskopfschmerzen, Nervosität und zum Stressabbau",
-        "price": "29",
-        "time": "25",
-        "glowe": true
+        "name": "Kopfschmerz- oder Migränemassage",
+        "alias": "kopfschmerz-massage",
+        "desc": "Viele Sachen im Leben bereiten uns Kopfschmerzen. Oft hängt es mit einer verspannten Schulter- Nackenmuskulatur zusammen. Es heißt nicht umsonst „Du trägst die Last auf deinen Schultern“. Bei dieser Massage wird besonders sanft die Schulter- Nackenmuskulatur gelockert, außerdem die gesamte Kopf- und Kiefermuskulatur. Die Kopfschmerzmassage kann im Akutfall genauso eingesetzt werden wie bei chronischen oder rezidivierenden Kopfschmerzen oder Migräne.",
+        "price": "70",
+        "time": "50"
       },
       {
-        "name": "GESICHTSLYMPHDRAINAGE",
-        "alias": "gesichtslymphdrainage",
-        "desc": "Sanfte entstauende Massage von Dekolleté, Hals und Gesicht. Insbesondere bei Neigung zu geschwollenen Augen, Kopfschmerzen, Nervosität.",
-        "price": "29",
-        "time": "25",
-        "glowe": true
+        "name": "Ganzkörper Lymphdrainage (Entstauungsmassage)",
+        "alias": "ganzkoerper-lymphdrainage",
+        "desc": "Das Lymphgefäßsystem ist neben dem Blutkreislauf das zweite große Gefäßsystem in unserem Körper. Mit der Lymphe werden Schlacke- und Entzündungsstoffe aus unserem Körper abtransportiert. <br>Sie fühlen sich im Moment nicht wohl in Ihrem Körper? Sie fühlen sich aufgedunsen, Füße, Hände oder Gesicht schwellen zeitweise an? Sie haben das Gefühl ihr Stoffwechsel funktioniert nicht mehr  und ihr Körper speichert vermehrt Wasser?<br>Dann ist die Entstauungsmassage genau das richtige für Sie. Dabei wird das gesamte Lymphsystem im Körper angeregt. Es werden vermehrt Schlacke- und Entzündungsstoffe abtransportiet. Der Stoffwechsel wird angeregt und es wird vermehrt Wasser ausgeschieden.",
+        "price": "70",
+        "time": "50"
       },
       {
-        "name": "ANTI STRESSMASSAGE INTENSIV",
-        "alias": "anti-stressmassage-intensiv",
-        "desc": "Eine wunderbare Kombination aus Anti - Stressmassage und Gesichtslymphdrainage. Beide Anwendungen verstärken sich in der Wirkung und führen zu einer absoluten Entspannung.",
-        "price": "55",
-        "time": "50",
-        "glowe": true
+        "name": "Lymphdrainage von Hals, Gesicht und Kopf",
+        "alias": "lymphdrainage-hals-gesicht-kopf",
+        "desc": "Diese Behandlung lässt sie vollkommen zur Ruhe kommen. Es beruhigt sich das gesamte Nervensystem, die Muskeln lockern sich und die Gesichtszüge entspannen. Gleichzeitig werden Schwellungen abgebaut. Ein gestauter Lymphfluss im Kopf führt zu chronischen Kopfschmerzen, Schwindel und Konzentrationsproblemen. Auch Hautprobleme sind oft auf einen Lymphstau zurückzuführen.",
+        "price": "35",
+        "time": "25"
       },
       {
-        "name": "FUSSREFLEXZONENMASSAGE",
+        "name": "Colontherapie (Bauchmassage)",
+        "alias": "colontherapie",
+        "desc": "Der Colon ist unser Darm, der ganz schön Sorgen machen kann wenn er nicht so richtig funktioniert. Akute oder sogar chronische Verstopfung und Darmträgheit sind die deutlichsten Symptome. Bei der Behandlung wird der ganze Bauch massiert. Der Darm wird zur Tätigkeit angeregt. Sie können dabei den einen oder anderen Griff lernen, den Sie dann zu Hause anwenden. Anschließend erhalten Sie eine Wärmeauflage auf den Bauch und ich rege den Darm weiter über die Fußreflexzonen an. Im Allgemeinen lässt der Erfolg nicht lange auf sich warten.",
+        "price": "70",
+        "time": "50"
+      },
+      {
+        "name": "Fußreflexzonenmassage",
         "alias": "fussreflexzonenmassage",
-        "desc": "Alle Organe unseres Körpers sind über Energiebahnen mit den Füßen verbunden. Mit dieser Anwendung tun Sie Ihren Füßen und Ihrem Körper etwas Gutes.",
-        "price": "29",
-        "time": "25",
-        "glowe": true
-      },
-      {
-        "name": "ENERGIE-FUSSMASSAGE",
-        "alias": "energie-fussmassage",
-        "desc": "Sanfte Ölmassage der Füße und Unterschenkel. Anschließend laufen Sie wie auf Wolken.",
-        "price": "29",
-        "time": "25",
-        "glowe": true
-      },
-      {
-        "name": "ENERGIE-GESICHTSMASSAGE",
-        "alias": "energie-gesichtsmassage",
-        "desc": "Entspannt sichtbar trockene Haut und schenkt Wohlbefinden. Gesichtsreinigung und anschließende Gesichts- und Dekolletè-massage mit hochwertigem Vita SilkOil.",
-        "price": "29",
-        "time": "25",
-        "glowe": true
-      },
-      {
-        "name": "GANZKÖRPER-SANDDORNÖLMASSAGE",
-        "alias": "ganzkoerper-sanddornoelmassage",
-        "desc": "Sanfte Massage von Rücken, Bauch, Armen und Beinen mit dem frisch- fruchtigen Sanddornöl.",
-        "price": "59",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "GANZKÖRPER-PEELINGMASSAGE",
-        "alias": "ganzkoerper-peelingmassage",
-        "desc": "Warmes Aromaöl wird mit feinsten Jojobakügelchen gemischt, die sich bei der Peelingmassage auflösen. Sie werden mit seidig weicher, gut durchbluteter Haut belohnt. Entspannung pur!",
-        "price": "63",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "GESICHTS-, HAND- UND FUSSMASSAGE",
-        "alias": "gesichts-hand-fuss-massage",
-        "desc": "Eine etwas andere Massagekombination zum Wohlfühlen. Probieren Sie es einfach aus!",
-        "price": "55",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "SAMTWEICHE HAUT",
-        "alias": "samtweiche-haut",
-        "desc": "Genießen Sie eine sanfte Peelingmassage mit warmem Sanddornöl für den ganzen Körper und eine Sanddornöl-Cremepackung. Sie werden mit einer samtweichen Haut belohnt.",
-        "price": "99",
-        "time": "100",
-        "glowe": true
-      },
-      {
-        "name": "SANDDORNÖL-CREMEPACKUNG",
-        "alias": "sanddornoel-cremepackung",
-        "desc": "Diese Ganzkörperpackung wird insbesondere bei sehr trockener und schuppiger, sowie sensibler Haut angewendet. Sie führt zu einer intensiven Befeuchtung der Haut und entspannt diese sichtbar.",
-        "price": "59",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "MASSAGETRAUM",
-        "alias": "massagetraum",
-        "desc": "Genießen Sie eine sanfte Ölmassage von den Haar- bis zu den Zehenspitzen. Entspannung pur!",
-        "price": "89",
-        "time": "80",
-        "glowe": true
+        "desc": "Alle Organe unseres Körper sind über Energiebahnen mit unseren Füßen verbunden. Über die Füße können wir unseren gesamten Körper oder auch nur einzelne Organe beeinflussen. Wollen wir eine tiefe Entspannung des Körpers erreichen behandeln wir die gesamten Füße. Wollen wir nur ein Organ anregen (z. Bsp. den Darm s.o.)konzentrieren wir uns auf die Behandlung dieser Organzone am Fuß.",
+        "price": "35",
+        "time": "25"
       }
     ]
   },
@@ -129,534 +106,234 @@
     "alias": "ruegener-heilkreide",
     "image": "kreidemassage-breit.jpg",
     "image_small": "kreideschale-breit.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
+    "pageTitle": "Massage- & Naturheilpraxis - Rügener Heilkreide",
     "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Die meisten Muskel- und Gelenkerkrankungen wie zum Beispiel Rheuma, Arthrose, Verspannungen, aber auch Hauterkrankungen wie Neurodermitis und Schuppenflechte entstehen durch eine Übersäuerung des Körpers. Die Rügener Heilkreide ist rein basisch. Bei einer Kreidepackung wird die Base über die Haut aufgenommen und setzt im Körper den Säure-Basen-Stoffwechsel in Gang. Nach Beendigung der Behandlungszeit werden dann über die Haut vermehrt Säuren ausgeschieden. Ein schöner Nebeneffekt ist, dass die Muskulatur aufgewärmt und gut durchblutet wird. Die Haut wird weich und Sie fühlen sich rundum wohl.",
+    "description": "Die meisten Muskel- und Gelenkerkrankungen wie zum Beispiel Rheuma, Arthrose, Verspannungen, aber auch Hauterkrankungen wie Neurodermitis und Schuppenflechte entstehen durch eine Übersäuerung des Körpers.Die Rügener Heilkreide ist rein basisch. Bei einer Kreidepackung wird die Base über die Haut aufgenommen und setzt im Körper den Säure-Basen-Stoffwechsel in Gang. Nach Beendigung der Behandlungszeit werden dann über die Haut vermehrt Säuren ausgeschieden. Ein schöner Nebeneffekt ist, dass die Muskulatur aufgewärmt und gut durchblutet wird. Die Haut wird weich und Sie fühlen sich rundum wohl.",
     "services": [
       {
-        "name": "GANZKÖRPERPACKUNG RÜGENER HEILKREIDE",
+        "name": "Ganzkörperpackung Rügener Heilkreide",
         "alias": "ganzkoerperpackung-ruegener-heilkreide",
-        "desc": "Das ist die ideale Anwendung um den vollen Therapie- und Entschlackungseffekt der Heilkreide auszuprobieren. Ihr ganzer Körper wird mit dem weichen, warmen, weißen Heilkreideschlamm eingerieben. Dann werden Sie auf unserer extra breiten, beheizbaren Wellnessliege entspannt gelagert und träumen bei sanfter Musik. Um den Therapieeffekt zu unterstützen sollten Sie an diesem Tag viel Wasser trinken und wenn Sie mögen in die Saune gehen, um über das Schwitzen die Ausscheidung der Säuren zu unterstützen.",
+        "desc": "Das ist die ideale Anwendung, um den vollen Therapie- und Entschlackungseffekt der Heilkreide auszuprobieren. Ihr ganzer Körper wird mit dem weichen, warmen, weißen Heilkreideschlamm eingerieben. Dann werden Sie auf unserer extra breiten, beheizbaren Wellnessliege entspannt gelagert und träumen bei sanfter Musik. Um den Therapieeffekt zu unterstützen, sollten Sie an diesem Tag viel Wasser trinken und -wenn sie mögen- in die Sauna gehen, um über das Schwitzen die Ausscheidung der Säuren zu unterstützen. ",
         "price": "55",
         "time": "50",
-        "glowe": false,
         "image": "new0909/services/kreide.jpg"
       },
       {
-        "name": "RÜGEN AM GANZEN KÖRPER GENIESSEN",
-        "alias": "ruegen-am-ganzen-koerper-geniessen",
-        "desc": "Genießen Sie eine Ganzkörperpackung mit Original Rügener Heilkreide und einer Ganzkörper-.Sanddornölmassage",
-        "price": "99",
-        "time": "100",
-        "glowe": false,
-        "image": "new0909/services/kreide.jpg"
-      },
-      {
-        "name": "RÜCKENPACKUNG MIT RÜGENER HEILKREIDE",
+        "name": "Rückenpackung mit Rügener Heilkreide",
         "alias": "rueckenpackung-mit-ruegener-heilkreide",
         "desc": "Die Rückenpackung wird warm aufgetragen und führt zu einer gesteigerten Durchblutung der Muskulatur. Wir empfehlen, die Rückenpackung in Verbindung mit einer Massage auszuprobieren.",
-        "price": "27",
+        "price": "30",
         "time": "25",
-        "glowe": true,
         "image": "new0909/services/kreide.jpg"
       },
       {
-        "name": "RÜGEN SPEZIAL - UNSER HIGHLIGHT FÜR SIE UND IHN",
-        "alias": "ruegen-spezial-unser-highlight-fuer-sie-und-ihn",
-        "desc": "Das ist unsere beliebteste Kombination aus entspannender Sanddornölrückenmassage, warmer Rückenpackung mit Rügener Heilkreise und anregender Sanddornölfussmassage während die Packung wirken kann.",
-        "price": "65",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "ENTSPANNTER RÜCKEN",
-        "alias": "entspannter-ruecken",
-        "desc": "Hierbei wird die Rückenpackung mit einer Relax- Rückenmassage verbunden.",
-        "price": "49",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "GESICHTSPACKUNG MIT RÜGENER HEILKREIDE",
+        "name": "Rügener Heilkreide Gesichtspackung",
         "alias": "gesichtspackung-mit-ruegner-heilkreide",
-        "desc": "Durch die antiallergische Wirkung der Rügener Heilkreide kann diese Gesichtspackung individuell auf jeden Hauttyp abgestimmt werden. Gemischt mit Honig, Milch und Olivenöl für trockene Haut oder nur angerührt mit Wasser bei Akne, entfaltet die Kreide je nach Wunsch ihr nachfettende oder austrocknende Wirkung.",
-        "price": "27",
-        "time": "25",
-        "glowe": true
-      },
-      {
-        "name": "RÜCKEN INTENSIV",
-        "alias": "ruecken-intensiv",
-        "desc": "Wir behandeln Ihr Rückenproblem fachspezifisch und individuell mit unterschiedlichen Massage- und Behandlungstechniken. Anschließend erhalten Sie in der Nachruhe eine Kreidepackung zur Durchblutungsförderung und auch, um eventuellen Muskelkater zu vermeiden.",
-        "price": "55",
-        "time": "50",
-        "glowe": false
-      },
-      {
-        "name": "RÜCKEN RELAX",
-        "alias": "ruecken-relax",
-        "desc": "Wir verbinden eine warme Rückenpackung mit einer Hot- Stone Rückenmassage.",
-        "price": "49",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "ENTSPANNTES LÄCHELN",
-        "alias": "entspanntes-laecheln",
-        "desc": "Sie erhalten eine Gesichtspackung mit Original Rügener Heilkreide, sowie eine entstauende Gesichtslymphdrainage für straffere Gesichtskonturen sowie ein strahlendes Lächeln.",
-        "price": "49",
-        "time": "50",
-        "glowe": true
-      }
-    ]
-  },
-  {
-    "name": "Sanft Entschlacken",
-    "alias": "sanft-entschlacken",
-    "image": "new0909/services/entschlacken.jpg",
-    "image_small": "algen-breit_small.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
-    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Die basische Wirkung der Rügener Heilkreide kann durch weitere Behandlungen mit einem Basensalz unterstützt werden. Außerdem eignen sich Algenanwendungen für die Entschlackung, Mineralisierung und zur Verbesserung des Zellaufbaus. Sie sind das Konzept für sichtbar und fühlbar straffere und gesunde Haut.",
-    "services": [
-      {
-        "name": "KLEINES ENTSCHLACKUNGSPROGRAMM",
-        "alias": "kleines-entschlackungsprogramm",
-        "desc": "Wollen Sie ihren Säure- Basenhaushalt regulieren? Dann wählen Sie dieses Programm! Nach einem Ganzkörperpeeling mit basischem Salz erhalten Sie eine Ganzkörper- Entschlackungspackung. Der Stoffwechsel wird angeregt, das Gewebe entwässert und die Haut gestrafft.",
-        "price": "79",
-        "time": "80",
-        "glowe": false
-      },
-      {
-        "name": "GANZKÖRPER- BASENPEELING",
-        "alias": "ganzkoerper-basenpeeling",
-        "desc": "Ganzkörper- Peeling mit hochwertigem Edelstein Basensalz",
-        "price": "29",
-        "time": "25",
-        "glowe": true
-
-      },
-      {
-        "name": "GANZKÖRPER- ENTSCHLACKUNGSPACKUNG",
-        "alias": "ganzkoerper-entschlackungspackung",
-        "desc": "Zur Straffung des Bindegewebes und zur Cellulite Behandlung wählen Sie die Entschlackungspackung. Dabei werden Rügener Heilkreide und Algen gemischt und verstärken gegenseitig ihre Wirkung.",
-        "price": "59",
-        "time": "50",
-        "glowe": false
-      },
-      {
-        "name": "DAS GROSSE ENTSCHLACKUNGSPROGRAMM",
-        "alias": "grosses-entschlackungsprogramm",
-        "desc": "Sie wollten sich schon immer etwas Gutes tun und nehmen sich nie die Zeit dazu? Dann machen Sie es jetzt! Nach einem Ganzkörperpeeling mit einem Edelstein- Basensalz erhalten Sie ein basisches Vollbad, anschließend erfolgt eine Ganzkörpermassage mit straffendem Zitronenöl.",
-        "price": "99",
-        "time": "100",
-        "glowe": true
-      },
-      {
-        "name": "ENTSCHLACKUNG PUR",
-        "alias": "entschlackung-pur",
-        "desc": "Diese Kombination aus einer Ganzkörper Entschlackungspackung in Verbindung mit einer Hot Stone Entsäuerungsmassage sorgt dafür, dass Ihr Stoffwechsel in Gang gebracht wird und Sie vermehrt überschüssige Säuren ausscheiden. Die Haut wird gestrafft und samtweich. Sie werden komplett aufgewärmt und fühlen sich rundum wohl.",
-        "price": "111",
-        "time": "100",
-        "glowe": true
-      },
-      {
-        "name": "HOT STONE ENTSÄUERUNGSMASSAGE",
-        "alias": "hot-stone-entsauerungsmassage",
-        "desc": "Der Ablauf ist wie bei der Hot Stone Ganzkörpermassage. Zusätzlich wird ein basisches Salz einmassiert, das den Säure- Basenstoffwechsel in Gang setzt. Der Körper nimmt über die Haut Basen auf und scheidet überschüssige Säuren aus. Der schönste Nebeneffekt ist eine samtweiche Haut.",
-        "price": "64",
-        "time": "50",
-        "glowe": true
-      }
-    ]
-  },
-  {
-    "name": "Hot-Stone Therapie",
-    "alias": "hot-stone-therapie",
-    "image": "hotstone-breit.jpg",
-    "image_small": "hotstone-breit.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
-    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Die Hot Stone Therapie ist eine Massage mit warmen, glatten Basaltsteinen, die eine wohltuende Tiefenentspannung bewirkt. Sie löst Verspannungen, fördert die Durchblutung, aktiviert die Selbstheilungskräfte und beruhigt das Nervensystem.",
-    "services": [
-      {
-        "name": "HOT STONE RÜCKENMASSAGE",
-        "alias": "hot-stone-rueckenmassage",
-        "desc": "Wenn Sie eine Rückenmassage möchten die nicht weh tut, aber trotzdem Verspannungen löst, dann probieren Sie doch einmal diese Massage mit warmen Steinen aus!",
-        "price": "29",
-        "time": "25",
-        "glowe": true
-      },
-      {
-        "name": "HOT STONE KOMBINATION",
-        "alias": "hot-stone-kombination",
-        "desc": "Sehr zu empfehlen ist auch unsere Kombination aus Hot Stone Rücken-, Schulter-, Nacken- und Gesichtsmassage. Diese Anwendung tut besonders gut, wenn man sehr gestresst und nervös ist und zu Spannungskopfschmerzen neigt.",
-        "price": "58",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "HOT STONE GANZKÖRPERMASSAGE",
-        "alias": "hot-stone-ganzkoerpermassage",
-        "desc": "Bei dieser besonders entspannenden Massage wird der ganze Körper mit warmen Steinen und ausgesuchten Ölen massiert. Sie werden ruhig, müde und lassen sich einfach in die Behandlung fallen.",
-        "price": "58",
-        "time": "50",
-        "glowe": false
-      },
-      {
-        "name": "HOT STONE ENTSÄUERUNGSMASSAGE",
-        "alias": "hot-stone-entsauerungsmassage",
-        "desc": "Der Ablauf ist wie bei der Hot Stone Ganzkörpermassage. Zusätzlich wird ein basisches Salz einmassiert, das den Säure- Basenstoffwechsel in Gang setzt. Der Körper nimmt über die Haut Basen auf und scheidet überschüssige Säuren aus. Der schönste Nebeneffekt ist eine samtweiche Haut.",
-        "price": "64",
-        "time": "50",
-        "glowe": true
-      }
-    ]
-  },
-  {
-    "name": "Verliebt, Verlobt, Verheiratet?",
-    "alias": "fuer-paare",
-    "image": "romantik-breit.jpg",
-    "image_small": "romantikbad-breit_small.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
-    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Wann haben Sie das letzte Mal mit ihrem Traumpartner zusammen gebadet? Unsere große Romantikwanne bietet bequem Platz auch für zwei große Personen. Viele Kerzen, ein Glas Sekt und entspannende Musik sorgen für eine romantische Atmosphäre.",
-    "services": [
-      {
-        "name": "ROMANTIKBAD",
-        "alias": "romantikbad",
-        "desc": "Sie genießen ein duftendes Bad zu zweit bei sanfter Musik und Kerzenschein mit einem Glas Sekt und süßer Köstlichkeit.",
-        "info": "Der Preis gilt für 2 Personen.",
-        "price": "55",
-        "time": "30",
-        "glowe": false
-      },
-      {
-        "name": "ROMANTIKBAD & RELAXMASSAGE",
-        "alias": "romantikbad-und-relaxmassage",
-        "desc": "Erweitern Sie das romantische Bad zu zweit um eine entspannende Rückenmassage pro Person, für noch mehr Wohlbefinden.",
-        "info": "Der Preis gilt für 2 Personen.",
-        "price": "99",
-        "time": "55",
-        "glowe": false
-      }
-    ]
-  },
-  {
-    "name": "Ayurveda",
-    "alias": "ayurveda",
-    "image": "new0909/services/ayurveda.jpg",
-    "image_small": "ayurveda_small.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
-    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Durch sanfte Streichelmassagen wird Sesamöl in die Haut geschleust, das bin in die Zellen eindringt und dort Stoffwechselrückstände löst, an sich bindet und zur Ableitung in den Magen-Darm-Kanal befördert. Das Immunsystem wird gestärkt, der Regenerationsprozess im Körper beschleunigt, der Alterungsprozess verzögert, rheumatische Erkrankungen werden verbessert, Gelenke entschlackt und Trägheit und Kälte im Körper beseitigt. Man fühlt sich vital und voller Energie und es herrscht ein harmonisches Gleichgewicht zwischen Körper, Geist und Seele.",
-    "services": [
-      {
-        "name": "ABHYANGA - DIE GANZKÖRPERMASSAGE",
-        "alias": "abhyanga-die-ganzkoerpermassage",
-        "desc": "Der gesamte Körper wird in gleichmäßigen Rythmen geölt. Flächige Streichungen und Kreisungen setzen reinigende Impulse, aktivieren den Energie- und Lymphfluss und straffen die Haut",
-        "price": "95",
-        "time": "75",
-        "glowe": false
-      },
-      {
-        "name": "SHIRODARAH - DER STIRNÖLGUSS",
-        "alias": "shirodarah-der-stirnoelguss",
-        "desc": "Ein kostbarer warmer Ölstrahl auf der Stirn beruhigt Geist und Seele. Speziell für stressgeplagte Kopfmenschen die ideale Tiefenentspannung fürs Nervensystem. Der ayurvedische Stirnguss Shirodarah ist eine sehr wohltuende entspannende traditionelle Ölanwendung.",
-        "price": "40",
-        "time": "25",
-        "glowe": false,
-        "services": [{
-           "name": "Shirodarah mit Abhyanga",
-           "price": "120",
-           "time": "100"
-         }]
-      },
-      {
-        "name": "MUKABHYANGA - DIE SCHULTER, NACKEN & KOPFMASSAGE",
-        "alias": "mukabhyanga-die-schulter-nacken-kopf-massage",
-        "desc": "Dem Alltag entfliehen, Zeit und Raum vergessen. Diese Massage dient hauptsächlich der Entspannung, Beruhigung aber auch der Hautpflege. Stress, Kummer, Unschlüssigkeit und Sorgen werden gelindert und beseitigt. Die Behandlung hat einen großen Einfluss auf das Seelenleben, ausserdem schärft sie unsere Sinne, stärkt die Sehkraft und durch die indirekte Wirkung auf das Gehirn werden alle übrigen Körperorgane harmonisiert.",
-        "price": "35",
-        "time": "25",
-        "glowe": false
-      },
-      {
-        "name": "PADABHYANGA - DIE FUSS & BEINMASSAGE",
-        "alias": "padabhyanga-die-fuss-bein-massage",
-        "desc": "Eine sehr wirkungsvolle Fussmassage die kräftigend und erneuernd auf den gesamten Organismus wirkt. Mit warmem Sesamöl werden Füße, Waden und Knie mit speziellen Griffen ausgestrichen und massiert. Die Fussmassage beseitigt Rauhigkeit, Hornhaut und Steifheit, werleiht den Füssen Kraft und Stabilität, lindert Schlafstörungen, Nervosität und \"Schwirren\" im Kopf.",
-        "price": "35",
-        "time": "25",
-        "glowe": false,
-        "services": [{
-          "name": "Padabhyanga mit Mukabhyanga",
-          "price": "65",
-          "time": "50"
-        }]
-      }
-    ]
-  },
-  {
-    "name": "Exotik Pur",
-    "alias": "exotik-pur",
-    "image": "exotik_head.jpg",
-    "image_small": "exotik_small.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
-    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Exotische Anwendungen wie eine Hawaiianische Massage oder ein Klangschalen Fussbad.",
-    "services": [
-      {
-        "name": "KLANGSCHALEN FUSSBAD",
-        "alias": "klangschalen-fussbad",
-        "desc": "Dies ist ein Erlebnis der besonderen Art. Tauchen Sie Ihre Füsse in ein exotisch duftendes Fussbad und lassen Sie sich durch die sanften Schwingungen der Klangschale in Tiefenentspannung versetzen. Ein Fussbad, das bin in die Haarspitzen wirkt. Sehr wirkungsvoll als Einzelbehandlung oder als Einstimmung auf eine Massage.",
+        "desc": "Durch die antiallergische Wirkung der Rügener Heilkreide kann diese Gesichtspackung individuell auf jeden Hauttyp abgestimmt werden. Gemischt mit Honig, Milch und Olivenöl für trockene Haut oder nur angerührt mit Wasser bei Akne, entfaltet die Kreide je nach Wunsch ihre nachfettende oder austrocknende Wirkung.",
         "price": "30",
         "time": "25",
-        "glowe": false,
         "services": [
           {
-            "name": "Klangschalen Fussbad & Padabhyanga",
-            "price": "60",
-            "time": "50"
-          },
-          {
-            "name": "Klangschalen Fussbad & Mukavhyanga ",
-            "price": "60",
-            "time": "50"
-          },
-          {
-            "name": "Klangschalen Fussbad & Lomi Lomi Nui ",
-            "price": "100",
-            "time": "115"
-          },
-          {
-            "name": "Klangschalen Fussbad & Abhyanga ",
-            "price": "100",
-            "time": "115"
+            "name": "In Verbindung mit entstauender Gesichtslymphdrainage",
+            "time": "50",
+            "price": "55"
           }
         ]
       },
       {
-        "name": "LOMI LOMI NUI - STÄRKT DIE LEBENSENERGIE",
-        "alias": "lomi-lomi-nui-staerkt-die-lebensenergie",
-        "desc": "Hawaiianische Ganzkörpermassage: Die Exotische Ganzkörpermassage aus Hawaii wirkt energetisierend und bringt den Zauber der Südsee an die Ostsee. Lomi Lomi Nui ist wie der kraftvolle, wellenförmige Tanz des Meeres und wirkt wie Balsam auf Körper, Geist und Seele. Durch tiefe Entspannung verlassen Sie den Alltag und kommen an den Ort der Harmonie und Ausgegelichenheit. Ziel dieser zuwendungsvollen Massage mit sanfter Dehnung der Gelenke ist es, den Menschen wieder zu regenerieren und in Einklang mit sich und seiner Umgebung zu bringen.",
-        "price": "95",
-        "time": "75",
+        "name": "Rücken intensiv",
+        "alias": "ruecken-intensiv",
+        "desc": "Ich behandele ihr Rückenproblem entsprechend dem Befund fachgerecht mit unterschiedlichen Massagetechniken. Anschließend erhalten Sie eine warme Rückenpackung mit Rügener Heilkreide, damit die Muskulatur wieder zur Ruhe kommt und ein Muskelkater vermieden wird.",
+        "price": "55",
+        "time": "50",
         "glowe": false
       },
       {
-        "name": "RAHIMARITAL - URSPRUNG REINER SCHÖNHEIT",
-        "alias": "rahimarital-ursprung-reiner-schoenheit",
-        "desc": "Hier beginnt Ihre Entdeckungsreise zu den reinen Quellen kraftvoller Exotik. Zart schmelzende Körperbutter und seidiges Hautöl mit blauem Lotus, rotem Tulpenbaum und wertvollem Marulaöl sorgen für ein sinnliches Vergnügen und ein langanhaltendes, geschmeidiges Hautgefühl. Beginnen Sie die Reise mit einem verführerisch duftenden und pflegenden Klangschalenfussbad. Anschließend werden mit einem sanften Ganzkörperpeeling alte Hautschüppchen entfernt, damit nun die Rahima Ganzkörpermassage ihre pflegende und entspannt Wirkung entfalten kann. Anschließend ruhen Sie noch etwas nach und kommen dann langsam in die Wirklichkeit zurück.",
-        "price": "120",
-        "time": "100",
-        "glowe": false
+        "name": "Entsäuerungsbehandlung",
+        "alias": "entsaeuerungsbehandlung",
+        "desc": "Nach einem Diagnosegespräch führe ich entsprechend ihrer Schwerpunkte eine Verbindung aus Entstaungsmassage , Colonmassage und Fußreflexzonenmassage durch. Der gesamte Körper wird angeregt zu arbeiten und der Stoffwechsel läuft auf Hochtouren. Anschließend erhalten Sie eine Ganzkörper – Heilkreidepackung um den Säure- Basenstoffwechsel zusätzlich anzuregen.<br>Das ist eine hochwirksame Behandlung insbesondere bei chronischen Muskelerkrankungen, dauerhaften Schmerzen, zur Unterstützung beim Fasten und Ernährungsumstellung.",
+        "price": "110",
+        "time": "110"
+      },
+      {
+        "name": "Kalte Teilkörperpackung mit Rügener Heilkreide",
+        "alias": "teilkoerperpackung-ruegener-heilkreide",
+        "desc": "Neben der warmen Heilkreidepackung für die Muskulatur und zur Anregung des Stoffwechsels, kann die Kreide auch kalt angewandt werden. Das ist insbesondere bei akuten Gelenkentzündungen (z.Bsp. Geschwollenes heißes Knie), akuten Traumen (z.Bsp. Umgeknickter Fuß) Allergien und Sonnenbrand interessant. Kalte Kreide wirkt antiallergisch und zieht Entzündungen aus dem behandelten Körperbereich. Besonders wirksam auch in Verbindung mit Kinesio Tape und/ oder Lymphdrainage.",
+        "price": "30",
+        "time": "25"
+      },
+      {
+        "name": "Aknebehandlung",
+        "alias": "aknebehandlung",
+        "desc": "Nach einer basischen Gesichtsreinigung erfolgt das Entfernen von Aknepusteln und Hautunreinheiten. Anschließend wird eine Rügener Heilkreide Packung aufgetragen, welche Entzündungen aus dem Gewebe zieht und Rötungen abklingen lässt.",
+        "price": "55",
+        "time": "50"
+      },
+      {
+        "name": "Gesichtsbehandlung",
+        "alias": "gesichtsbehandlung",
+        "desc": "Als ärztlich geprüfte Ganzheitskosmetikerin und Heilpraktikerin biete ich Ihnen eine Gesichtsbehandlung an, die speziell auf Ihre Hautprobleme eingeht. Nach einer gründlichen Diagnose stelle ich die Behandlung für Sie zusammen. Dabei kommen basische Kompresse, Reinigung und Peelings, Rügener Heilkreide Gesichtspackung in Verbindung mit Schüssler Salzen und Salben, sowie Gesichtslymphdrainage oder Massage zum Einsatz. Diese Behandlung ist besonders geeignet für trockene, empfindliche und zu Allergien neigende Haut, Couperose (Geplatzte Äderchen), Neurodermitis und Schuppenflechte.",
+        "price": "70",
+        "time": "50"
       }
     ]
   },
   {
-    "name": "Kosmetikanwendungen",
-    "alias": "kosmetik",
+    "name": "Therapie individuell & Halswirbelsäule spezial & Craniosacrale Therapie",
+    "alias": "individuell-halswirbelsaeule-craniosacrale-therapie",
+    "image": "new0909/services/entschlacken.jpg",
+    "image_small": "algen-breit_small.jpg",
+    "pageTitle": "Massage- & Naturheilpraxis - Therapie individuell & Halswirbelsäule spezial & Craniosacrale Therapie",
+    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
+    "services": [
+      {
+        "name": "Therapie individuell",
+        "alias": "therapie-individuell",
+        "desc": "Am besten ist es wenn Sie einfach einen Behandlungszeitraum bei mir buchen. Am Beginn jeder Behandlung steht immer ein Gespräch, nachdem ich mich dann individuell auf Ihre Wünsche und Probleme einstelle. Meistens fließen mehrere Therapien in eine Behandlung ein und gehen unmerklich ineinander über. Im Anschluss habe ich einige der am häufigsten von mir angewandten Therapien beschrieben. Bei Terminvergabe können wir auch klären welcher Behandlungszeitraum aufgrund Ihrer Beschwerden für Sie sinnvoll ist",
+        "services": [
+          {
+            "name": "Dauer",
+            "price": "35",
+            "time": "25"
+          },
+          {
+            "name": "Dauer",
+            "price": "70",
+            "time": "50"
+          }
+        ]
+      },
+      {
+        "name": "Halswirbelsäule spezial",
+        "alias": "halswirbelsaeule-spezial",
+        "desc": "Hier liegt das Hauptaugenmerk auf der Behandlung der tiefen Hals- und Nacken-muskulatur aus der Rückenlage. Ich arbeite dabei mit unterschiedlichen Massagetech-niken, Osteopathie und Faszientherapie. Halswirbel werden auf sanfte Weise gerichtet. Besonders zu empfehlen bei Verspannungen im Schulter-Nackenbereich, Spannungskopfschmerzen, Bewegungseinschränkungen von Hals, Kopf und Armen. Parästhesien (Ein-schlafen, Kribbeln, Taubheitsgefühl)der Arme und Hände. Bereits eine Behandlung ist sehr wirkungsvoll. Sie fühlen sich freier, beweglicher, als wenn Ihnen eine Last von den Schultern gefallen ist.",
+        "services": [
+          {
+            "name": "Dauer",
+            "price": "35",
+            "time": "25"
+          },
+          {
+            "name": "Dauer",
+            "price": "70",
+            "time": "50"
+          }
+        ]
+      },
+      {
+        "name": "Craniosacrale Therapie",
+        "alias": "craniosacrale-therapie",
+        "desc": "Dies ist eine sehr sanfte und wohltuende Therapie aus dem Bereich der Osteopathie. Die Therapie geht vom Schädel bis zum Kreuzbein. Es werden dabei insbesondere die Halswirbel sanft in die richtige Position gebracht. Die Rückenmarksflüssigkeit kann wieder frei fließen und der Gang wird aufrechter. Besonders hilfreich ist diese Therapie bei Migräne, Burnout, Nervosität, Schwindel, Tinnitus, Spannungskopfschmerzen, starken Verspannungen im Brustwirbel-, Hals- und Nackenbereich.",
+        "price": "70",
+        "time": "50"
+      }
+    ]
+  },
+  {
+    "name": "Osteopathische Ganzheitstherapie & Faszientherapie",
+    "alias": "osteopathie-faszientherapie",
+    "image": "hotstone-breit.jpg",
+    "image_small": "hotstone-breit.jpg",
+    "pageTitle": "Massage- & Naturheilpraxis - Osteopathische Ganzheitstherapie & Faszientherapie",
+    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
+    "services": [
+      {
+        "name": "Osteopathische Ganzheitstherapie",
+        "alias": "osteopathische-ganzheitstherapie",
+        "desc": "Bei dieser osteopathischen Behandlung geht es um die Zusammenhänge der inneren Organe mit der Wirbelsäule. Es gibt ein Wechselspiel zwischen unseren Organen und unserem Bewegungsapparat. So können zum Beispiel Verspannungen und Vernarbungen im Unterbauch zu chronischen Kreuzschmerzen führen. Oder Blockierungen in der Brustwirbelsäule lösen Herzschmerzen und Atembeschwerden aus. Verspannungen und Blockierungen der Halswirbelsäule wiederum haben Einfluss auf den ganzen Körper und den Kopf. Bei dieser osteopathischen Therapie geht es nun darum, die Zusammenhänge bei Ihnen zu erkennen und zu beheben. Nach einem Gespräch führe ich die Untersuchung durch, die oft unmerklich in die Behandlung übergeht.",
+        "price": "70",
+        "time": "50"
+      },
+      {
+        "name": "Original Faszientherapie nach Typaldos",
+        "alias": "original-faszientherapie",
+        "desc": "Faszien sind oberflächliche und tiefe Bindegewebsschichten die sich durch den ganzen Körper ziehen und alle miteinander verbunden sind. Störungen der Faszien können zu einer veränderten Körperwahrnehmung führen, die mit Instabilität, geminderter Kraft, gestörter Feinmotorik, Schmerz oder auch mit Missempfindungen (brennendes Gefühl, Kribbeln, Taubheit) in verschiedenen Körperregionen einhergehen kann. Als Folge von Unfällen, Bewegungsmangel, Stress, Zufuhr von chemischen Substanzen wie Medikamenten oder Giften, können Faszien verkleben, verfilzen und sich verdrehen und in einander haken. Die Faszien sind so nicht mehr voll funktionsfähig. Dies führt zu Schmerzen, Bewegungseinschränkung, Schwäche, Verminderung der Feinmotorik und Instabilität. Spezielle manuelle Techniken können diese Veränderungen rückgängig machen.",
+        "price": "70",
+        "time": "50"
+      }
+    ]
+  },
+  {
+    "name": "Bachblütentherapie & Schüssler Salze & Homöopathie",
+    "alias": "bachbluetentherapie-schuessler-salze-homoeopathie",
     "image": "kreidegesichtpinsel.jpg",
     "image_small": "kreidegesichtpinsel.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
+    "pageTitle": "Massage- & Naturheilpraxis - Bachblütentherapie & Schüssler Salze & Homöopathie",
     "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "description": "Bei einer kosmetischen Gesichtsbehandlung erfolgt eine Tiefenreinigung der Haut. Es wird außerdem die Durchblutung verbessert, was den Teint frischer wirken lässt. Bei der Gesichtsmassage entspannen sich nicht nur die Gesichtszüge, sondern der ganze Mensch.",
     "services": [
       {
-        "name": "KOSMETIK - KLASSISCH FRISCH",
-        "alias": "klassisch-frisch",
-        "desc": "Genießen Sie eine klassische Gesichtsbehandlung mit Reinigung, Peeling, Ausreinigen, Packung und ausführlicher Gesichts-, Hals-, Nacken- und Dekolletémassage. Alle Produkte werden auf Ihren Hauttyp abgestimmt.",
-        "price": "57",
-        "time": "55",
-        "glowe": true
-      },
-      {
-        "name": "KOSMETIK EXKLUSIV",
-        "alias": "exklusiv",
-        "desc": "Das Rundumpaket für ein strahlendes, frisches Gesicht. Lassen Sie sich mit einer klassischen Gesichtsbehandlung verwöhnen. Zusätzlich werden Ihre Augenbrauen in Form gebracht. Die Wimpern und Augenbrauen werden gefärbt. Ausserdem wird eine Bio Skin Liftampulle mit Soforteffekt eingearbeitet, welche kleine Fältchen verschwinden lässt.",
-        "price": "82",
-        "time": "80",
-        "glowe": true
-      },
-      {
-        "name": "MEERESBRISE",
-        "alias": "meeresbrise",
-        "desc": "Meeresschaum Gesichtsreinigung, Ausreinigen, Tonisieren, Original Rügener Heilkreide Gesichtsmaske, Energie- Gesichtsmassage, Hydro Marin Abschlusspflege.",
-        "price": "59",
-        "time": "55",
-        "glowe": true
-      },
-      {
-        "name": "AUGEN PUR",
-        "alias": "augen-pur",
-        "desc": "Augenbrauen zupfen, färben und Wimpern färben. Die Korrektur der Augenbrauen sowie das Färben von Augenbrauen und Wimpern gestaltet das Gesicht häufig viel ausdrucksvoller.",
-        "price": "30",
-        "time": "25",
-        "glowe": true
-      },
-      {
-        "name": "\"STRAHLENDE AUGEN\"",
-        "alias": "strahlende-augen",
-        "desc": "Nach einer Meeresschaum- Gesichtsreinigung werden die Augenbrauen in Form gebracht und gefärbt. Die Wimpern werden ebenfalls frisch gefärbt. Anschließend werden Anti Aging Beauty Pads mit Collagen zur Faltenreduzierung um die Augen fixiert. Zeitgleich wird das ganze mit einer Feuchtigkeitsmaske verwöhnt. Zum Schluss erhalten Sie eine Augenmassage mit Augencreme und eine Abschlusspflege.",
-        "price": "57",
-        "time": "55",
-        "glowe": true
-      },
-      {
-        "name": "REGENRATIONSBEHANDLUNG MIT MEERESWIRKSTOFFEN",
-        "alias": "regenerationsbehandlung-mit-meereswirkstoffen",
-        "desc": "Diese Aufbaubehandlung für Gesicht, Hals- und Dekolleté wirkt verjüngend und zeigt schon bei einmaliger Anwendung ein verblüffendes Ergebnis. Die Bio- Cellularprdoukte sind auf Algenbasis mit hochwertigem Vitamin E hergestellt. Diese Behandlung eignet sich insbesondere bei trockener und reifer Haut, bei nachlassender Elastizität und Fältchenbildung. Ihre Haut wird mit Feuchtigkeit gesättigt und dankt es Ihnen mit einem wesentlich glatteren Aussehen.",
-        "price": "85",
-        "time": "80",
-        "glowe": true
-      },
-      {
-        "name": "\"GEPFLEGTE HÄNDE\"",
-        "alias": "gepflegte-haende",
-        "desc": "Sie erhalten ein Handbad, Handpeeling, Maniküre, Handpackung und Handmassage. Ihre Hände danken es ihnen mit samtweicher Haut und gepflegtem Aussehen.",
-        "price": "55",
-        "time": "55",
-        "glowe": true
-      },
-      {
-        "name": "BEATUY FOR MEN",
-        "alias": "beauty-for-men",
-        "desc": "Spezielle Gesichtsbehandlung für Ihn, auf die Besonderheiten der männlichen Haut abgestimmt.",
-        "price": "57",
-        "time": "55",
-        "glowe": true
-      },
-      {
-        "name": "\"FLINKE FÜSSE\"",
-        "alias": "flinke-fuesse",
-        "desc": "Sie erhalten ein Fußbad, Fußpeeling, Pediküre, Fußpackung und Fußmassage. Sie schweben wie auf Wolke 7.",
-        "price": "55",
-        "time": "55",
-        "glowe": false
-      },
-      {
-        "name": "ANTI COUPEROSE BEHANDLUNG",
-        "alias": "anti-couperose-behandlung",
-        "desc": "Entstaut und mildert sichtbar rote und blaue Äderchen im Gesicht. Die meist sehr empfindliche und sensible Haut mit Neigung zu erweiterten Äderchen wird hierbei mit hochwertigen Anti Couperose Produkten sowie einer entstauenden Gesichtslymphdrainage behandelt.",
-        "price": "59",
-        "time": "55",
-        "glowe": true
-      },
-      {
-        "name": "ZUSATZANWENDUNGEN",
-        "desc": "Die folgenden Anwendungen können zusätzlich zu einer Gesichtsbehandlung gebucht werden:",
-        "glowe": true,
+        "name": "Kinesio-Taping",
+        "alias": "kinesio-taping",
+        "desc": "Beim Kinesio-Tapinjg werden elastische Bänder in unterschiedlichen Mustern auf die Haut geklebt. Dadurch wird der Lymphfluss im behandelten Bereich angeregt. Mit der Lymphe werden Entzündungsstoffe aus dem therapierten Gebiet abtransportiert. Die Schmerzlinderung und Heilung wird unterstützt. Der behandelte Bereich ist weiterhin beweglich, wird aber trotzdem gestützt. Sehr zu empfehlen ist das Taping in Verbindung mit Osteopathie oder Massage, aber auch bei Verletzungen oder chronischen Schmerzen einzelner Gelenke.",
         "services": [
           {
-            "name": "Augenbrauen faconieren",
-            "price": "12"
-          },
-          {
-            "name": "Wimpern färben",
-            "price": "12"
-          },
-          {
-            "name": "Augenbrauen färben",
-            "price": "10"
-          },
-          {
-            "name": "Gesichtsenthaarung mit Wachs",
-            "price": "8"
-          },
-          {
-            "name": "Gesichtsenthaarung mit Wachs",
-            "price": "8"
-          },
-          {
-            "name": "Ampulle (je nach Hauttyp)",
-            "price": "8"
-          },
-          {
-            "name": "Klassiche Maniküre",
-            "price": "8",
-            "time": "25"
-          },
-          {
-            "name": "Klassiche Pediküre",
-            "price": "8",
-            "time": "25"
+            "name": "Zeit und Preis je nach Aufwand ab",
+            "price": "15"
           }
         ]
       },
       {
-        "name": "SAMTWEICHE HAUT",
-        "alias": "samtweiche-haut",
-        "desc": "Genießen Sie eine sanfte Peelingmassage mit warmem Sanddornöl für den ganzen Körper und eine Sanddornöl-Cremepackung. Sie werden mit einer samtweichen Haut belohnt.",
-        "price": "99",
-        "time": "100",
-        "glowe": true
+        "name": "Bachblütentherapie - Die Seele ins Gleichgewicht bringen",
+        "alias": "bachbluetentherapie",
+        "desc": "Dr. Bach erkannte, das seelische Ungleichgewichte für das Auftreten von Krankheiten verantwortlich sein können. Bachblüten helfen, mit negativen Gefühlen (z.B. Angst, Unsicherheit, Ungeduld, Trauer, Hoffnungslosigkeit usw.) besser klar zu kommen. Die Bachblüten helfen insbesondere bei großen Umbrüchen in der Lebensplanung wie z.B. Berufswechsel, Trennungen, Familienplanung, während oder nach überstandenen Krankheiten, psychischen Belastungen, in der Pubertät und den Wechseljahren. Nach einem ausführlichen Gespräch werden die für Sie in Frage kommenden Bachblüten kinesiologisch ausgetestet. Sie erhalten Ihre persönliche fertig gemixte Bachblüten-mischung sofort zum Mitnehmen.",
+        "price": "70",
+        "time": "50"
       },
       {
-        "name": "SANDDORNÖL-CREMEPACKUNG",
-        "alias": "sanddornoel-cremepackung",
-        "desc": "Diese Ganzkörperpackung wird insbesondere bei sehr trockener und schuppiger, sowie sensibler Haut angewendet. Sie führt zu einer intensiven Befeuchtung der Haut und entspannt diese sichtbar.",
-        "price": "59",
-        "time": "50",
-        "glowe": true
-      },
-      {
-        "name": "MASSAGETRAUM",
-        "alias": "massagetraum",
-        "desc": "Genießen Sie eine sanfte Ölmassage von den Haar- bis zu den Zehenspitzen. Entspannung pur!",
-        "price": "89",
-        "time": "80",
-        "glowe": true
+        "name": "Schüssler Salze & Homöopathie",
+        "alias": "schuessler-salze-homoeopathie",
+        "desc": "Die Biochemie nach Dr. Schüssler ist ein sehr umfassendes Gebiet. Eingesetzt bei akuten Erkrankungen, genauso wie bei chronischen Prozessen wirken diese Salze bei Kindern genauso wie bei Erwachsenen und alten Menschen. Sie können einzeln, aber auch in Kombination oder als Kur eingesetzt werden. Da sie schulmedizinische Medikamente nicht beeinflussen, lassen sich die Schüssler Salze sehr gut zusätzlich einsetzen. Auch als Salben, Cremes oder Lotionen entfalten sie ihre volle Wirksamkeit. Ähnlich verhält es sich mit homöopatischen Einzel oder Komplexmitteln, die sich sehr gut mit Schüssler Salzen oder Bachblüten kombinieren lassen.",
+        "price": "70",
+        "time": "50"
       }
     ]
   },
   {
-    "name": "Verwöhnprogramme",
-    "alias": "verwoehnprogramme",
+    "name": "Behandlungskombinationen",
+    "alias": "behandlungskombinationen",
     "image": "new0909/services/verwohnprogramme.jpg",
     "image_small": "mechanischewelle.jpg",
-    "pageTitle": "Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen",
+    "pageTitle": "Massage- & Naturheilpraxis - Behandlungskombinationen",
     "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Lassen Sie es sich bei speziellen Verwöhnangeboten gut ergehen!",
     "services": [
-      {
-        "name": "VERWÖHNPROGRAMM FÜR SIE",
-        "alias": "fuer-sie",
-        "desc": "Kleine Gesichts-, Hals- und Dekolletébehandlung, Anti Stressmassage, Rückenpackung mit Rügener Heilkreide, Energie Fußmassage",
-        "price": "122",
-        "time": "ca 120",
-        "glowe": true
-      },
-      {
-        "name": "VERWÖHNPROGRAMM FÜR IHN",
-        "alias": "fuer-ihn",
-        "desc": "Anti Stressmassage, Rückenpackung mit Rügener Heilkreide, Beauty for Men Gesichtsbehandlung, Energie Fußmassage",
-        "price": "122",
-        "time": "ca 120",
-        "glowe": true
-      },
       {
         "name": "DER RÜCKEN WIRD ES DANKEN",
         "alias": "der-ruecken-wird-es-danken",
-        "desc": "Für dieses Programm benötigen wir 3 Behandlungstage!<br>1 x Relax Rückenmassage<br>1 x Anti Stressmassage<br>1 x Hot Stone Rückenmassage<br>3 x Rückenpackung mit Rügener Heilkreide<br>Es werden immer eine Massage und eine Kreidepackung miteinander kombiniert.",
-        "price": "144",
-        "time": "50",
-        "info": "An jedem der 3 Tage dauert die Behandlung ca. 50 min",
-        "glowe": false
+        "desc": "Für dieses Programm benötigen wir 3 Behandlungstage!<br>Einführungsgespräch<br>3x warme Rückenpackung mit Rügener Heilkreide<br>3x individuelle Rückenmassage entsprechend ihrer Probleme",
+        "price": "160",
+        "time": "3X 60",
+        "info": "An jedem der 3 Tage dauert die Behandlung ca. 60 min"
       },
       {
-        "name": "RÜGENER HEILKREIDE UND SANDDORN",
-        "alias": "ruegener-heilkreide-sanddorn",
-        "desc": "Für dieses Programm benötigen wir 1-2 Behandlungstage!<br>1 x Sanddornöl Gesichtsmassage<br>1 x Gesichtspackung mit Rügener Heilkreide<br>1 x Ganzkörper Sanddornölmassage<br>1 x Ganzkörperpackung mit Rügener Heilkreide ",
-        "price": "144",
-        "time": "180",
-        "glowe": true
+        "name": "Sanft Entschlacken",
+        "alias": "sanft-entschlacken",
+        "desc": "Einführungsgespräch<br>Ganzkörper Lymphdrainage (Entstauungsmassage)<br>entschlackende Rügener Heilkreide Ganzkörperpackung<br>basische Gesichtbehandlung",
+        "price": "180",
+        "time": "3x 60",
+        "info": "Gesamtbehandlungszeit 3x ca. 1 Stunde"
+      },
+      {
+        "name": "Entspannt und schmerzfrei",
+        "alias": "entspannt-schmerzfrei",
+        "desc": "Einführungsgespräch<br>Osteopatische Ganzheitstherapie<br>Anti Stressmassage<br>individuelle Rückenmassage entsprechend Ihrer Beschwerden<br>Rückenpackung mit Rügener Heilkreide",
+        "price": "180",
+        "time": "3x 60",
+        "info": "Gesamtbehandlungszeit 3x ca. 1 Stunde"
+      },
+
+      {
+        "name": "Stressfrei",
+        "alias": "stressfrei",
+        "desc": "Einführungsgespräch mit der Heilpraktikerin<br>Schulter- Nacken- Kopfmassage<br>Gesichtslymphdrainage<br>craniosacrale Therapie (sanfte Osteopathie)<br>Bachblütentherapie",
+        "price": "180",
+        "time": "3x 60",
+        "info": "Gesamtbehandlungszeit 3x ca. 1 Stunde"
       }
     ]
   }

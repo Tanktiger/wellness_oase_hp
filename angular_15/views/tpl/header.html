@@ -1,7 +1,7 @@
 <div class="wrap">
     <div class="logo">
         <a href="#" ui-sref="main.start" title="Wellness Oase - Startseite">
-            <img src="images/wellness-oase-ruegen.png" title="Wellness Oase Rügen und Naturheilpraxis - Sylke Scheduikat" alt="Wellness auf Rügen - Sylke Scheduikat"/>
+            <img src="images/Logo-small.jpg" title="Massage und Naturheilpraxis - Sylke Scheduikat" alt="Wellness auf Rügen - Sylke Scheduikat"/>
         </a>
     </div>
 
@@ -16,7 +16,6 @@
                     <li class="submenu" ng-repeat="product in products"><a href="#" ui-sref="main.category({alias: product.alias})" title="{{ product.name }}">{{ product.name }}</a></li>
                 </ul>
             </li>
-            <li class="nav-nature" ng-class="{'active': $state.includes('main.nature')}"><a href="#" ui-sref="main.nature" title="Naturheilpraxis Sylke Scheduikat">Naturheilpraxis</a></li>
             <!--<li class="nav-gallery"><a href="gallery.html" title="Wellness-Oase Bildergallerie">Gallerie</a></li>-->
             <!--<li class="nav-etikette"><a href="etikette.html" title="Wellnessetikette, Zahlungsmodalit&auml;ten, Kosten&uuml;bernahme private Krankenkasse">Wellness-Etikette</a></li>-->
             <li class="nav-contact" ng-class="{'active': $state.includes('main.contact')}"><a ui-sref="main.contact" title="Wellness-Oase Kontakt">Kontakt</a></li>
