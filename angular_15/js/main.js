@@ -157,9 +157,9 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
                 }]
             }
         })
-        .state('main.nature', {
-            url: "/naturheilpraxis",
-            templateUrl: "views/naturheilpraxis.html",
+        .state('main.person', {
+            url: "/person",
+            templateUrl: "views/person.html",
             data: {
                 pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
                 pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
@@ -178,15 +178,6 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
         .state('main.impressum', {
             url: "/impressum",
             templateUrl: "views/impressum.html",
-            data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
-                pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
-            }
-        })
-        .state('main.etikette', {
-            url: "/etikette",
-            templateUrl: "views/etikette.html",
             data: {
                 pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
                 pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',

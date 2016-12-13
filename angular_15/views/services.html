@@ -1,6 +1,6 @@
 <div class="wrap">
     <div class="services">
-        <h1>Unsere Angebote</h1>
+        <h1>Meine Behandlungen</h1>
         <div class="section group" ng-repeat="product in products" ng-if="$index % 3 == 0">
             <div class="grid_1_of_3 images_1_of_3   greenGradientDownTop">
                 <a href="#" ui-sref="main.category({alias: products[$index].alias})" title="{{ products[$index].name }}">
@@ -13,7 +13,7 @@
                 <div class="button">
                     <span>
                         <a href="#" ui-sref="main.category({alias: products[$index].alias})" title="{{ products[$index].name }}">
-                            Zu den Anwendungen
+                            Zu den Behandlungen
                         </a>
                     </span>
                 </div>
@@ -29,7 +29,7 @@
                 <div class="button">
                     <span>
                         <a href="#" ui-sref="main.category({alias: products[$index + 1].alias})" title="{{ products[$index + 1].name }}">
-                            Zu den Anwendungen
+                            Zu den Behandlungen
                         </a>
                     </span>
                 </div>
@@ -45,13 +45,12 @@
                 <div class="button">
                     <span>
                         <a href="#" ui-sref="main.category({alias: products[$index + 2].alias})" title="{{ products[$index + 2].name }}">
-                            Zu den Anwendungen
+                            Zu den Behandlungen
                         </a>
                     </span>
                 </div>
             </div>
         </div>
-        <h4><a ui-sref="main.etikette" title="Etikette und Kosten">Wellness-Etikette und Kostenübernahme</a></h4>
         <div class="clear"> </div>
     </div>
 </div>
