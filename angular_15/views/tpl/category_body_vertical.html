@@ -1,0 +1,29 @@
+<div ng-if="category.image !== null" class="category-image">
+    <img class="header-image" ng-src="images/{{category.image}}">
+</div>
+<div class="large-box">
+    <ul>
+        <li class="new-list" ng-repeat="service in category.services">
+            <h3>
+                <a ng-if="service.alias" href="#" class="name" ui-sref="main.detail({alias: category.alias, slug: service.alias})">
+                    {{service.name}}
+                </a>
+                <span ng-if="service.alias === undefined">{{service.name}} <span ng-if="service.glowe == false">*</span></span>
+                <span ng-if="service.time && service.price" class="service-price">{{service.time}} min - {{service.price}} €</span>
+            </h3>
+            <p ng-if="service.desc" ng-bind-html="service.desc"></p>
+            <p ng-if="service.info">{{service.info}}</p>
+            <p class="info-text" ng-if="service.services" ng-repeat="subservice in service.services">{{subservice.name}} <span ng-if="subservice.time">({{subservice.time}} min)</span> - {{subservice.price}} €</p>
+            <!--<span class="giftcardlink"><a ui-sref="main.contact" title="{{service.name}} Gutschein hier beantragen">Hier Gutschein anfragen</a></span>-->
+        </li>
+    </ul>
+    <!--<div class="left-box1 " ng-repeat="service in data.entities">-->
+    <!--<h5>{{service.name}} <span ng-if="service.glowe">*</span></h5>-->
+    <!--<p>-->
+    <!--{{service.description}}-->
+    <!--</p>-->
+    <!--<span ng-if="service.duration && service.price">{{service.duration}} min - {{service.price}} € </span>-->
+    <!--<span ng-repeat="subservice in service.subServices">{{subservice.name}} ({{subservice.duration}} min) - {{subservice.price}} € <br></span>-->
+    <!--</div>-->
+    <div class="clear"></div>
+</div>

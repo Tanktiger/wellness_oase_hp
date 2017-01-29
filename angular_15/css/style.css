@@ -559,6 +559,17 @@ h2.subhead {
 .services-sidebar ul li:hover{
 	background: url(../images/marker1.png) 0 14px no-repeat;
 }
+
+.services .vertical-design div.category-image {
+    display: inline-block;
+    width: 34%;
+    float: left;
+}
+.services .vertical-design div.large-box {
+    display: inline-block;
+    width: 59%;
+    margin-left: 1%;
+}
 /*---projects----*/
 .projects-bottom-paination ul li{
 	display:inline-block;
@@ -769,6 +780,15 @@ h2.subhead {
         margin-right: auto;
         margin-left: auto;
     }
+    .services .vertical-design div.category-image {
+        display: block;
+        width: 100%;
+    }
+    .services .vertical-design div.large-box {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
 }
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
@@ -793,6 +813,15 @@ h2.subhead {
     .images_1_of_3 img {
         margin-right: auto;
         margin-left: auto;
+    }
+    .services .vertical-design div.category-image {
+        display: block;
+        width: 100%;
+    }
+    .services .vertical-design div.large-box {
+        display: block;
+        width: 100%;
+        margin-left: 0;
     }
 }
 @media only screen and (max-width: 1440px) {

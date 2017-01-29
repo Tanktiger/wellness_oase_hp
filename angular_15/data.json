@@ -104,7 +104,8 @@
   {
     "name": "Rügener Heilkreide",
     "alias": "ruegener-heilkreide",
-    "image": "kreidemassage-breit.jpg",
+    "style": "vertical",
+    "image": "kategorien/kreidepackung.jpg",
     "image_small": "kreideschale-breit.jpg",
     "pageTitle": "Massage- & Naturheilpraxis - Rügener Heilkreide",
     "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
