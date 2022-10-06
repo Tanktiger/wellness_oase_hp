@@ -1,6 +1,6 @@
 <div class="wrap">
     <div class="contact">
-        <h1>Kontakt - Massage und Naturheilpraxis</h1>
+        <h1>Kontakt - Massage & Naturheilpraxis Sylke Scheduikat</h1>
         <div class="section group contact1">
             <div class="col span_1_of_3">
                 <div class="company_address">
@@ -8,86 +8,17 @@
                     <p>Parkweg 6e,</p>
                     <p>18556 Breege,</p>
                     <p>Deutschland</p>
-                    <p>Telefon: 038391 / 935675</p>
+                    <p><span class="bold">Telefon:</span> <a href="tel:038391935675">038391 ⁄ 935675</a></p>
+                    <p><span class="bold">Mobil:</span> <a href="tel:01739504573">0173-9504573</a></p>
                     <p>Fax: 038391 / 935675</p>
-                    <p>Email: <span>naturheilpraxis-scheduikat@web.de</span></p>
+                    <p><span class="bold">E-Mail:</span> <a href="mailto:naturheilpraxis-scheduikat@web.de">naturheilpraxis-scheduikat@web.de</a></p>
 
-                    <iframe width="340" height="300"
-                            src="http://maps.google.de/maps?hl=de&q=Parkweg 6e, 18556 Breege+(Massage & Naturheilpraxis Sylke Scheduikat)&ie=UTF8&t=&z=17&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                    </iframe>
 
                 </div>
             </div>
             <div class="col span_2_of_3">
-                <div class="contact-form">
-                    <h2>Kontaktieren Sie uns</h2>
-                    <form method="post" action="javascript:;">
-                        <div>
-                            <span><label>NAME</label></span>
-                            <span><input class="userName" name="userName" type="text" class="textbox"></span>
-                        </div>
-                        <div>
-                            <span><label>E-MAIL</label></span>
-                            <span><input class="userEmail" name="userEmail" type="text" class="textbox"></span>
-                        </div>
-                        <div>
-                            <span><label>TELEFON</label></span>
-                            <span><input class="userPhone" name="userPhone" type="text" class="textbox"></span>
-                        </div>
-                        <div>
-                            <span><label>BETREFF</label></span>
-                            <span><textarea class="userMsg" name="userMsg"> </textarea></span>
-                        </div>
-                        <div>
-                            <span><label>Kontaktieren Sie mich via:</label></span>
-                            <input type="radio" name="userContactVia" value="Telefon" checked="checked">Telefon</input>
-                            <input type="radio" name="userContactVia" value="E-Mail">E-Mail</input>
-                        </div>
-                        <div>
-                            <span><input id="submitContact" type="submit" value="Abschicken"></span>
-                        </div>
-                    </form>
-                    <div class="statusMsg hide"></div>
-                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577.5551267620793!2d13.366074629294149!3d54.617723475305084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ab5055670720af%3A0x31e512963ea3564f!2sHeilpraktikerin%20Sylke%20Scheduikat!5e0!3m2!1sde!2sde!4v1665056966826!5m2!1sde!2sde" style="width:100%;border:0;" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
 </div>
-<script type="application/javascript">
-    $(document).ready(function() {
-        $('#submitContact').on('click', function() {
-            $( ".statusMsg").empty();
-            $('#submitContact').hide();
-
-            var name = $('form .userName').val();
-            var email = $('form .userEmail').val();
-            var tel = $('form .userPhone').val();
-            var text = $('form .userMsg').val();
-            var contact = $('form input[name="userContactVia"]:checked').val();
-
-            var request = $.ajax({
-                url: "contact.php",
-                type: "POST",
-                data: {
-                    name : name,
-                    email: email,
-                    tel: tel,
-                    text: text,
-                    contact: contact
-                },
-                dataType: "json"
-            });
-
-            request.done(function( data ) {
-                $( ".statusMsg" ).html( data.msg).show();
-//                $('#submitContact').show();
-//                _gaq.push(['_trackEvent', 'Contact', 'Send', name, email]);
-            });
-
-            request.fail(function( jqXHR, textStatus ) {
-                alert( "Die Anfrage ist fehlgeschlagen: " + textStatus );
-                $('#submitContact').show();
-            });
-        });
-    });
-</script>
