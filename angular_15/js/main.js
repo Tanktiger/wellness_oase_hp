@@ -52,42 +52,8 @@ app.controller('MainPageController', ['$scope', '$rootScope', '$http', function(
 
             //http://responsiveslides.com/
             $("#slider1").responsiveSlides({
-                maxwidth: 1600,
-                speed: 1000,
+                speed: 1500,
                 fade: 500
-            });
-            $.ajax({
-                method: "GET",
-//                    url: "http://localhost:8888/app_dev.php/services/get-offers",
-                url: "http://intern.wellnessaufruegen.de/services/get-offers",
-                async: true,
-                jsonpCallback: 'callback',
-                contentType: "application/json",
-                dataType: 'jsonp'
-            }).done(function( response ) {
-                var offers = $('#offers');
-                offers.find('.loading').hide();
-                if (response.length > 0 && $.isArray(response)) {
-                    var text = '';
-                    $.each(response, function(key, value) {
-                        text += '<a href="sonderangebote.php" class="singleoffer">'
-                            + value.name + ' nur ' + value.newPrice + ' €</a>';
-//                            text += '<a href="#" class="singleoffer" data-name="'+value.name+'"'
-//                                                                + 'data-description="'+value.description+'"'
-//                                                                + 'data-newprice="'+value.newPrice+'"'
-//                                                                + 'data-oldprice="'+value.oldPrice+'"'
-//                                                                + 'data-start="'+value.start+'"'
-//                                                                + 'data-end="'+value.end+'" >'
-//                            + value.name + ' nur ' + value.newPrice + ' €</a>';
-                        if ((key + 1) < response.length) {
-                            text += ' - ';
-                        }
-                    });
-                    offers.find('h3').append(text).show();
-                } else {
-                    offers.hide();
-                }
-                offers.find('.loading').hide();
             });
         });
     });
@@ -128,8 +94,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/404",
             templateUrl: "views/error.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             }
         })
@@ -137,8 +103,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/",
             templateUrl: "views/start.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Heilpraktikerin Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             },
             controller: "MainPageController",
@@ -161,8 +127,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/person",
             templateUrl: "views/person.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             }
         })
@@ -170,8 +136,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/kontakt",
             templateUrl: "views/contact.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             }
         })
@@ -179,8 +145,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/impressum",
             templateUrl: "views/impressum.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             }
         })
@@ -188,8 +154,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/sitemap.html",
             templateUrl: "views/sitemap.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             }
         })
@@ -197,8 +163,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/partner",
             templateUrl: "views/partner.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             }
         })
@@ -206,8 +172,8 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             url: "/bilder",
             templateUrl: "views/gallery.html",
             data: {
-                pageTitle: 'Willkommen bei Sylke Scheduikat in Juliusruh auf Rügen',
-                pageDescription: 'Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
+                pageTitle: 'Willkommen bei Sylke Scheduikat in Breege auf Rügen',
+                pageDescription: 'Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet "Es ist immer der Mensch der wichtigste, den wir gerade behandeln".',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             },
             resolve: {
@@ -229,7 +195,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
             templateUrl: "views/services.html",
             data: {
                 pageTitle: 'Angebote',
-                pageDescription: 'Massagen, Kosmetik, Ayurveda, Exotik - Anwendungen und vieles mehr finden Sie in der Wellness Oase Rügen in Juliusruh und Glowe',
+                pageDescription: 'Massagen, Kosmetik, Ayurveda, Exotik - Anwendungen und vieles mehr finden Sie in der Massage und Naturheilpraxis Rügen in Breege',
                 pageKeywords: 'wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide'
             },
             controller: function($rootScope, $scope, $stateParams, $state) {
@@ -248,7 +214,7 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
                 $scope.category = {};
                 $scope.products = $rootScope.products;
                 for (var i = 0; i < $rootScope.products.length; i++) {
-                    if ($rootScope.products[i].alias == $stateParams.alias) {
+                    if ($rootScope.products[i].alias === $stateParams.alias) {
                         $scope.category = $rootScope.products[i];
                         $state.current.data.pageTitle = $rootScope.products[i].pageTitle;
                         $state.current.data.pageDescription = $rootScope.products[i].pageDescription;
@@ -270,11 +236,11 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', functio
                 $scope.category = {};
                 $scope.products = $rootScope.products;
                 for (var i = 0; i < $rootScope.products.length; i++) {
-                    if ($rootScope.products[i].alias == $stateParams.alias) {
+                    if ($rootScope.products[i].alias === $stateParams.alias) {
                         var category = $rootScope.products[i];
                         $scope.category = category;
                         for (var j = 0; j < category.services.length; j++) {
-                            if (category.services[j].alias == $stateParams.slug) {
+                            if (category.services[j].alias === $stateParams.slug) {
                                 $scope.product = category.services[j];
                                 $state.current.data.pageTitle = category.services[j].pageTitle;
                                 $state.current.data.pageDescription = category.services[j].pageDescription;

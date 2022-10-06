@@ -5,99 +5,51 @@
     "image": "kategorien/massagen.jpg",
     "image_small": "kategorien/massagen_klein.jpg",
     "pageTitle": "Massage- & Naturheilpraxis - Massagen / Manuelle Lymphdrainagen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "pageDescription": "Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "description": "Massagen werden vorwiegend zum Lösen von Verspannungen, zur Durchblutungssteigerung und zur Schmerzlinderung eingesetzt. Da sanfte Berührungen der Haut aber auch positiv auf die Psyche wirken, kann man eine Massage auch einfach nur genießen, sich fallen lassen und entspannen.",
     "services": [
       {
-        "name": "Klassische Massagen",
-        "image": "kreidemassage.jpg",
-        "alias": "klassische-massage",
-        "desc": "Massagen werden vorwiegend zum Lösen von Verspannungen, zur Durchblutungs-steigerung und zur Schmerzlinderung eingesetzt. Da sanfte Berührungen der Haut aber auch positiv auf die Psyche wirken, kann sie auch sehr gut bei nervlicher Überlastung, Nervosität und Stress eingesetzt werden.",
-        "services": [
-          {
-            "name": "klass. Rückenmassage",
-            "price": "30",
-            "time": "25"
-          },
-          {
-            "name": "Hot Stone Rückenmassage",
-            "price": "30",
-            "time": "25"
-          },
-          {
-            "name": "Fußmassage",
-            "price": "30",
-            "time": "25"
-          },
-          {
-            "name": "Hand- Armmassage",
-            "price": "30",
-            "time": "25"
-          },
-          {
-            "name": "Beinmassage",
-            "price": "30",
-            "time": "25"
-          },
-          {
-            "name": "Gesichtsmassage",
-            "price": "30",
-            "time": "25"
-          }
-        ]
+        "name": "Therapie individuell",
+        "alias": "therapie-individuell",
+        "desc": "Am besten ist es, wenn Sie einfach einen Behandlungszeitraum bei mir buchen. Am Beginn jeder Behandlung steht immer ein Gespräch, nach dem ich mich dann individuell auf Ihre Wünsche und Probleme einstelle. Meistens fließen mehrere Therapien in eine Behandlung ein und gehen unmerklich ineinander über. Im Anschluss habe ich einige der am häufigsten von mir angewandten Therapien beschrieben. Bei Terminvergabe können wir auch klären, welcher Behandlungszeitraum aufgrund Ihrer Beschwerden für Sie sinnvoll ist. ",
+        "times": "50 oder 75min"
       },
       {
         "name": "Individuelle Teilkörper- oder Ganzkörpermassage",
         "alias": "individuelle-massage",
         "desc": "Nach einem kurzen Gespräch stelle ich mich mit unterschiedlichen Massagetechniken auf Ihre akuten oder chronischen Probleme ein. Entspannend und beruhigend, oder kräftigend und anregend. Es können Elemente aus der klassischen Massage, Lymphdrainage, Reflexzonenmassage sowie Tiefenwärme mit der Hot Stone Massage einfließen. Wir finden gemeinsam die richtige Massagekombination für Sie.",
-        "services": [
-          {
-            "name": "Dauer",
-            "price": "35",
-            "time": "25"
-          },
-          {
-            "name": "Dauer",
-            "price": "70",
-            "time": "50"
-          }
-        ]
+        "times": "25, 50 oder 75min"
       },
       {
         "name": "Kopfschmerz- oder Migränemassage",
         "alias": "kopfschmerz-massage",
-        "desc": "Viele Sachen im Leben bereiten uns Kopfschmerzen. Oft hängt es mit einer verspannten Schulter- Nackenmuskulatur zusammen. Es heißt nicht umsonst „Du trägst die Last auf deinen Schultern“. Bei dieser Massage wird besonders sanft die Schulter- Nackenmuskulatur gelockert, außerdem die gesamte Kopf- und Kiefermuskulatur. Die Kopfschmerzmassage kann im Akutfall genauso eingesetzt werden wie bei chronischen oder rezidivierenden Kopfschmerzen oder Migräne.",
-        "price": "70",
-        "time": "50"
-      },
-      {
-        "name": "Ganzkörper Lymphdrainage (Entstauungsmassage)",
-        "alias": "ganzkoerper-lymphdrainage",
-        "desc": "Das Lymphgefäßsystem ist neben dem Blutkreislauf das zweite große Gefäßsystem in unserem Körper. Mit der Lymphe werden Schlacke- und Entzündungsstoffe aus unserem Körper abtransportiert. <br>Sie fühlen sich im Moment nicht wohl in Ihrem Körper? Sie fühlen sich aufgedunsen, Füße, Hände oder Gesicht schwellen zeitweise an? Sie haben das Gefühl ihr Stoffwechsel funktioniert nicht mehr  und ihr Körper speichert vermehrt Wasser?<br>Dann ist die Entstauungsmassage genau das richtige für Sie. Dabei wird das gesamte Lymphsystem im Körper angeregt. Es werden vermehrt Schlacke- und Entzündungsstoffe abtransportiet. Der Stoffwechsel wird angeregt und es wird vermehrt Wasser ausgeschieden.",
-        "price": "70",
-        "time": "50"
+        "desc": "Viele Sachen im Leben bereiten uns Kopfschmerzen. Oft hängt es mit einer verspannten SchulterNackenmuskulatur zusammen. Es heißt nicht umsonst „Du trägst die Last auf deinen Schultern“. Bei dieser Massage wird besonders sanft die Schulter-Nackenmuskulatur gelockert, außerdem die gesamte Kopf- und Kiefermuskulatur. Die Kopfschmerzmassage kann im Akutfall genauso eingesetzt werden wie bei chronischen oder rezidivierenden Kopfschmerzen oder Migräne.",
+        "times": "50min"
       },
       {
         "name": "Lymphdrainage von Hals, Gesicht und Kopf",
         "alias": "lymphdrainage-hals-gesicht-kopf",
-        "desc": "Diese Behandlung lässt sie vollkommen zur Ruhe kommen. Es beruhigt sich das gesamte Nervensystem, die Muskeln lockern sich und die Gesichtszüge entspannen. Gleichzeitig werden Schwellungen abgebaut. Ein gestauter Lymphfluss im Kopf führt zu chronischen Kopfschmerzen, Schwindel und Konzentrationsproblemen. Auch Hautprobleme sind oft auf einen Lymphstau zurückzuführen.",
-        "price": "35",
-        "time": "25"
+        "desc": "Diese Behandlung lässt Sie vollkommen zur Ruhe kommen. Es beruhigt sich das gesamte Nervensystem, die Muskeln lockern sich und die Gesichtszüge entspannen. Gleichzeitig werden Schwellungen abgebaut. Ein gestauter Lymphfluss im Kopf führt zu chronischen Kopfschmerzen, Schwindel und Konzentrationsproblemen. Auch Hautprobleme sind oft auf einen Lymphstau zurückzuführen.",
+        "times": "25min"
+      },
+      {
+        "name": "Ganzkörper Lymphdrainage (Entstauungsmassage)",
+        "alias": "ganzkoerper-lymphdrainage",
+        "desc": "Das Lymphgefäßsystem ist neben dem Blutkreislauf das zweite große Gefäßsystem in unserem Körper. Mit der Lymphe werden Schlacke- und Entzündungsstoffe aus unserem Körper abtransportiert. Sie fühlen sich im Moment nicht wohl in Ihrem Körper? Sie fühlen sich aufgedunsen, Füße, Hände oder Gesicht schwellen zeitweise an? Sie haben das Gefühl Ihr Stoffwechsel funktioniert nicht mehr und ihr Körper speichert vermehrt Wasser? Dann ist die Entstauungsmassage genau das Richtige für Sie. Dabei wird das gesamte Lymphsystem im Körper angeregt. Es werden vermehrt Schlacke- und Entzündungsstoffe abtransportiert. Der Stoffwechsel wird angeregt und es wird vermehrt Wasser ausgeschieden.",
+        "times": "50min"
+      },
+      {
+        "name": "Fußreflexzonenmassage",
+        "alias": "fussreflexzonenmassage",
+        "desc": "Alle Organe unseres Körper sind über Energiebahnen mit unseren Füßen verbunden. Über die Füße können wir unseren gesamten Körper oder auch nur einzelne Organe beeinflussen. Wollen wir eine tiefe Entspannung des Körpers erreichen behandeln wir die gesamten Füße. Wollen wir nur ein Organ anregen konzentrieren wir uns auf die Behandlung dieser Organzone am Fuß. ",
+        "times": "25 oder 50min"
       },
       {
         "name": "Colontherapie (Bauchmassage)",
         "alias": "colontherapie",
         "desc": "Der Colon ist unser Darm, der ganz schön Sorgen machen kann wenn er nicht so richtig funktioniert. Akute oder sogar chronische Verstopfung und Darmträgheit sind die deutlichsten Symptome. Bei der Behandlung wird der ganze Bauch massiert. Der Darm wird zur Tätigkeit angeregt. Sie können dabei den einen oder anderen Griff lernen, den Sie dann zu Hause anwenden. Anschließend erhalten Sie eine Wärmeauflage auf den Bauch und ich rege den Darm weiter über die Fußreflexzonen an. Im Allgemeinen lässt der Erfolg nicht lange auf sich warten.",
-        "price": "70",
-        "time": "50"
-      },
-      {
-        "name": "Fußreflexzonenmassage",
-        "alias": "fussreflexzonenmassage",
-        "desc": "Alle Organe unseres Körper sind über Energiebahnen mit unseren Füßen verbunden. Über die Füße können wir unseren gesamten Körper oder auch nur einzelne Organe beeinflussen. Wollen wir eine tiefe Entspannung des Körpers erreichen behandeln wir die gesamten Füße. Wollen wir nur ein Organ anregen (z. Bsp. den Darm s.o.)konzentrieren wir uns auf die Behandlung dieser Organzone am Fuß.",
-        "price": "35",
-        "time": "25"
+        "times": "50min"
       }
     ]
   },
@@ -108,233 +60,154 @@
     "image": "kategorien/kreidepackung.jpg",
     "image_small": "kreideschale-breit.jpg",
     "pageTitle": "Massage- & Naturheilpraxis - Rügener Heilkreide",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "pageDescription": "Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "description": "Die meisten Muskel- und Gelenkerkrankungen wie zum Beispiel Rheuma, Arthrose, Verspannungen, aber auch Hauterkrankungen wie Neurodermitis und Schuppenflechte entstehen durch eine Übersäuerung des Körpers.Die Rügener Heilkreide ist rein basisch. Bei einer Kreidepackung wird die Base über die Haut aufgenommen und setzt im Körper den Säure-Basen-Stoffwechsel in Gang. Nach Beendigung der Behandlungszeit werden dann über die Haut vermehrt Säuren ausgeschieden. Ein schöner Nebeneffekt ist, dass die Muskulatur aufgewärmt und gut durchblutet wird. Die Haut wird weich und Sie fühlen sich rundum wohl.",
     "services": [
       {
-        "name": "Ganzkörperpackung Rügener Heilkreide",
-        "alias": "ganzkoerperpackung-ruegener-heilkreide",
-        "desc": "Das ist die ideale Anwendung, um den vollen Therapie- und Entschlackungseffekt der Heilkreide auszuprobieren. Ihr ganzer Körper wird mit dem weichen, warmen, weißen Heilkreideschlamm eingerieben. Dann werden Sie auf unserer extra breiten, beheizbaren Wellnessliege entspannt gelagert und träumen bei sanfter Musik. Um den Therapieeffekt zu unterstützen, sollten Sie an diesem Tag viel Wasser trinken und -wenn sie mögen- in die Sauna gehen, um über das Schwitzen die Ausscheidung der Säuren zu unterstützen. ",
-        "price": "55",
-        "time": "50",
-        "image": "new0909/services/kreide.jpg"
-      },
-      {
         "name": "Rückenpackung mit Rügener Heilkreide",
         "alias": "rueckenpackung-mit-ruegener-heilkreide",
-        "desc": "Die Rückenpackung wird warm aufgetragen und führt zu einer gesteigerten Durchblutung der Muskulatur. Wir empfehlen, die Rückenpackung in Verbindung mit einer Massage auszuprobieren.",
-        "price": "30",
-        "time": "25",
-        "image": "new0909/services/kreide.jpg"
-      },
-      {
-        "name": "Rügener Heilkreide Gesichtspackung",
-        "alias": "gesichtspackung-mit-ruegner-heilkreide",
-        "desc": "Durch die antiallergische Wirkung der Rügener Heilkreide kann diese Gesichtspackung individuell auf jeden Hauttyp abgestimmt werden. Gemischt mit Honig, Milch und Olivenöl für trockene Haut oder nur angerührt mit Wasser bei Akne, entfaltet die Kreide je nach Wunsch ihre nachfettende oder austrocknende Wirkung.",
-        "price": "30",
-        "time": "25",
-        "services": [
-          {
-            "name": "In Verbindung mit entstauender Gesichtslymphdrainage",
-            "time": "50",
-            "price": "55"
-          }
-        ]
+        "desc": "Die Rückenpackung wird warm aufgetragen und führt zu einer gesteigerten Durchblutung der Muskulatur. Über die Poren werden die basischen Wirkstoffe der Heilkreide aufgenommen und der Säure-Basenstoffwechsel im Körper aktiviert. Es werden vermehrt Säuren ausgeschieden, die sich sonst an den Gelenken und in der Muskulatur einlagern. Dort verursachen sie Schmerzen, Entzündungen und Bewegungseinschränkungen.",
+        "times": "25 oder 50min"
       },
       {
         "name": "Rücken intensiv",
         "alias": "ruecken-intensiv",
-        "desc": "Ich behandele ihr Rückenproblem entsprechend dem Befund fachgerecht mit unterschiedlichen Massagetechniken. Anschließend erhalten Sie eine warme Rückenpackung mit Rügener Heilkreide, damit die Muskulatur wieder zur Ruhe kommt und ein Muskelkater vermieden wird.",
-        "price": "55",
-        "time": "50",
-        "glowe": false
-      },
-      {
-        "name": "Entsäuerungsbehandlung",
-        "alias": "entsaeuerungsbehandlung",
-        "desc": "Nach einem Diagnosegespräch führe ich entsprechend ihrer Schwerpunkte eine Verbindung aus Entstaungsmassage , Colonmassage und Fußreflexzonenmassage durch. Der gesamte Körper wird angeregt zu arbeiten und der Stoffwechsel läuft auf Hochtouren. Anschließend erhalten Sie eine Ganzkörper – Heilkreidepackung um den Säure- Basenstoffwechsel zusätzlich anzuregen.<br>Das ist eine hochwirksame Behandlung insbesondere bei chronischen Muskelerkrankungen, dauerhaften Schmerzen, zur Unterstützung beim Fasten und Ernährungsumstellung.",
-        "price": "110",
-        "time": "110"
+        "desc": "Ich behandele Ihr Rückenproblem entsprechend dem Befund fachgerecht mit unterschiedlichen Massagetechniken. Anschließend erhalten Sie eine warme Rückenpackung mit Rügener Heilkreide, damit die Muskulatur wieder zur Ruhe kommt und ein Muskelkater vermieden wird.",
+        "times": "50 oder 75min"
       },
       {
         "name": "Kalte Teilkörperpackung mit Rügener Heilkreide",
         "alias": "teilkoerperpackung-ruegener-heilkreide",
-        "desc": "Neben der warmen Heilkreidepackung für die Muskulatur und zur Anregung des Stoffwechsels, kann die Kreide auch kalt angewandt werden. Das ist insbesondere bei akuten Gelenkentzündungen (z.Bsp. Geschwollenes heißes Knie), akuten Traumen (z.Bsp. Umgeknickter Fuß) Allergien und Sonnenbrand interessant. Kalte Kreide wirkt antiallergisch und zieht Entzündungen aus dem behandelten Körperbereich. Besonders wirksam auch in Verbindung mit Kinesio Tape und/ oder Lymphdrainage.",
-        "price": "30",
-        "time": "25"
+        "desc": "Neben der warmen Heilkreidepackung für die Muskulatur und zur Anregung des Stoffwechsels, kann die Kreide auch kalt angewandt werden. Das ist insbesondere bei akutenGelenkentzündungen (z. Bsp. Geschwollenes heißes Knie), akuten Traumen (z. Bsp. umgeknickter Fuß) Allergien und Sonnenbrand interessant. Kalte Kreide wirkt antiallergisch und zieht Entzündungen aus dem behandelten Körperbereich. Besonders wirksam auch in Verbindung mit Kinesio Tape und/ oder Lymphdrainage.",
+        "times": "25min"
+      },
+      {
+        "name": "Rügener Heilkreide Gesichtspackung",
+        "alias": "gesichtspackung-mit-ruegner-heilkreide",
+        "desc": "Durch die antiallergische Wirkung der Rügener Heilkreide kann diese Gesichtspackung individuell auf jeden Hauttyp abgestimmt werden. Gemischt mit Honig, Milch und Olivenöl für trockene Haut oder nur angerührt mit Wasser bei Akne, entfaltet die Kreide je nach Wunsch ihre nachfettende oder austrocknende Wirkung",
+        "times": "25min"
+      },
+      {
+        "name": "Entstauende Gesichtsbehandlung",
+        "alias": "entstauende-gesichtsbehandlung",
+        "desc": "Dies ist eine Verbindung aus RügenerHeilkreide Gesichtspackung und entstauender Gesichtslymphdrainage. Die Behandlung wirkt beruhigend, entspannend und löst Lymphstauungen im Gesicht. Besonders wirksam bei Schwellungen, Kopfschmerzen, Nervosität.",
+        "times": "50min"
       },
       {
         "name": "Aknebehandlung",
         "alias": "aknebehandlung",
         "desc": "Nach einer basischen Gesichtsreinigung erfolgt das Entfernen von Aknepusteln und Hautunreinheiten. Anschließend wird eine Rügener Heilkreide Packung aufgetragen, welche Entzündungen aus dem Gewebe zieht und Rötungen abklingen lässt.",
-        "price": "55",
-        "time": "50"
+        "times": "50min"
       },
       {
         "name": "Gesichtsbehandlung",
         "alias": "gesichtsbehandlung",
-        "desc": "Als ärztlich geprüfte Ganzheitskosmetikerin und Heilpraktikerin biete ich Ihnen eine Gesichtsbehandlung an, die speziell auf Ihre Hautprobleme eingeht. Nach einer gründlichen Diagnose stelle ich die Behandlung für Sie zusammen. Dabei kommen basische Kompresse, Reinigung und Peelings, Rügener Heilkreide Gesichtspackung in Verbindung mit Schüssler Salzen und Salben, sowie Gesichtslymphdrainage oder Massage zum Einsatz. Diese Behandlung ist besonders geeignet für trockene, empfindliche und zu Allergien neigende Haut, Couperose (Geplatzte Äderchen), Neurodermitis und Schuppenflechte.",
-        "price": "70",
-        "time": "50"
+        "desc": "Als ärztlich geprüfte Ganzheitskosmetikerin und Heilpraktikerin biete ich Ihnen eine Gesichtsbehandlung an, die speziell auf Ihre Hautprobleme eingeht. Nach einer gründlichen Diagnose stelle ich die Behandlung für Sie zusammen. Dabei kommen basische Kompresse, Reinigung und Peelings, Rügener Heilkreide Gesichtspackung in Verbindung mit Schüssler Salzen und Salben, sowie Gesichtslymphdrainage oder Massage zum Einsatz. Diese Behandlung ist besonders geeignet für trockene, empfindliche und zu Allergien neigende Haut, Couperose (geplatzte Äderchen), Neurodermitis und Schuppenflechte.",
+        "times": "50min"
       }
     ]
   },
   {
-    "name": "Therapie individuell & Halswirbelsäule spezial & Craniosacrale Therapie",
+    "name": "Halswirbelsäule spezial, Craniosacrale Therapie, Kinesio-Taping",
     "alias": "individuell-halswirbelsaeule-craniosacrale-therapie",
-    "image": "kategorien/individuell.jpg",
-    "image_small": "kategorien/individuell_klein.jpg",
-    "pageTitle": "Massage- & Naturheilpraxis - Therapie individuell & Halswirbelsäule spezial & Craniosacrale Therapie",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "image": "naturheilpraxis19/kinesio-taping-breit.png",
+    "image_small": "naturheilpraxis19/kinesio-taping-breit.png",
+    "pageTitle": "Massage- & Naturheilpraxis - Halswirbelsäule spezial, Craniosacrale Therapie und Kinesio-Taping",
+    "pageDescription": "Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "services": [
       {
-        "name": "Therapie individuell",
-        "alias": "therapie-individuell",
-        "desc": "Am besten ist es wenn Sie einfach einen Behandlungszeitraum bei mir buchen. Am Beginn jeder Behandlung steht immer ein Gespräch, nachdem ich mich dann individuell auf Ihre Wünsche und Probleme einstelle. Meistens fließen mehrere Therapien in eine Behandlung ein und gehen unmerklich ineinander über. Im Anschluss habe ich einige der am häufigsten von mir angewandten Therapien beschrieben. Bei Terminvergabe können wir auch klären welcher Behandlungszeitraum aufgrund Ihrer Beschwerden für Sie sinnvoll ist",
-        "services": [
-          {
-            "name": "Dauer",
-            "price": "35",
-            "time": "25"
-          },
-          {
-            "name": "Dauer",
-            "price": "70",
-            "time": "50"
-          }
-        ]
-      },
-      {
         "name": "Halswirbelsäule spezial",
         "alias": "halswirbelsaeule-spezial",
-        "desc": "Hier liegt das Hauptaugenmerk auf der Behandlung der tiefen Hals- und Nacken-muskulatur aus der Rückenlage. Ich arbeite dabei mit unterschiedlichen Massagetech-niken, Osteopathie und Faszientherapie. Halswirbel werden auf sanfte Weise gerichtet. Besonders zu empfehlen bei Verspannungen im Schulter-Nackenbereich, Spannungskopfschmerzen, Bewegungseinschränkungen von Hals, Kopf und Armen. Parästhesien (Ein-schlafen, Kribbeln, Taubheitsgefühl)der Arme und Hände. Bereits eine Behandlung ist sehr wirkungsvoll. Sie fühlen sich freier, beweglicher, als wenn Ihnen eine Last von den Schultern gefallen ist.",
-        "services": [
-          {
-            "name": "Dauer",
-            "price": "35",
-            "time": "25"
-          },
-          {
-            "name": "Dauer",
-            "price": "70",
-            "time": "50"
-          }
-        ]
+        "desc": "Hier liegt das Hauptaugenmerk auf der Behandlung der tiefen Hals- und Nackenmuskulatur aus der Rückenlage. Ich arbeite dabei mit unterschiedlichen Massagetechniken, Osteopathie und Faszientherapie. Halswirbel werden auf sanfte Weise gerichtet. Besonders zu empfehlen bei Verspannungen im Schulter-Nackenbereich,Spannungskopfschmerzen, Bewegungseinschränkungen von Hals, Kopf und Armen. Parästhesien (Einschlafen, Kribbeln, Taubheitsgefühl) der Arme und Hände. Bereits eine Behandlung ist sehr wirkungsvoll. Sie fühlen sich freier und beweglicher, als wenn Ihnen eine Last von den Schultern gefallen ist.",
+        "times": "25 oder 50min"
       },
       {
         "name": "Craniosacrale Therapie",
         "alias": "craniosacrale-therapie",
         "desc": "Dies ist eine sehr sanfte und wohltuende Therapie aus dem Bereich der Osteopathie. Die Therapie geht vom Schädel bis zum Kreuzbein. Es werden dabei insbesondere die Halswirbel sanft in die richtige Position gebracht. Die Rückenmarksflüssigkeit kann wieder frei fließen und der Gang wird aufrechter. Besonders hilfreich ist diese Therapie bei Migräne, Burnout, Nervosität, Schwindel, Tinnitus, Spannungskopfschmerzen, starken Verspannungen im Brustwirbel-, Hals- und Nackenbereich.",
-        "price": "70",
-        "time": "50"
+        "times": "50min"
+      },
+      {
+        "name": "Kinesio-Taping",
+        "alias": "kinesio-taping",
+        "desc": "Beim Kinesio-Tapinjg werden elastische Bänder in unterschiedlichen Mustern auf die Haut geklebt. Dadurch wird der Lymphfluss im behandelten Bereich angeregt. Mit der Lymphe werden Entzündungsstoffe aus dem therapierten Gebiet abtransportiert. DieSchmerzlinderung und Heilung wird unterstützt. Der behandelte Bereich ist weiterhin beweglich, wird aber trotzdem gestützt. Sehr zu empfehlen ist das Taping in Verbindung mit Osteopathie oder Massage, aber auch bei Verletzungen oder chronischen Schmerzen einzelner Gelenke."
       }
     ]
   },
   {
-    "name": "Osteopathische Ganzheitstherapie & Faszientherapie",
+    "name": "Osteopathische Ganzheitstherapie & Original Faszientherapie nach Typaldos",
     "alias": "osteopathie-faszientherapie",
-    "image": "hotstone-breit.jpg",
-    "image_small": "hotstone-breit.jpg",
+    "image": "naturheilpraxis19/osteopathie-breit.png",
+    "image_small": "naturheilpraxis19/osteopathie-breit.png",
     "pageTitle": "Massage- & Naturheilpraxis - Osteopathische Ganzheitstherapie & Faszientherapie",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "pageDescription": "Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "services": [
       {
         "name": "Osteopathische Ganzheitstherapie",
         "alias": "osteopathische-ganzheitstherapie",
-        "desc": "Bei dieser osteopathischen Behandlung geht es um die Zusammenhänge der inneren Organe mit der Wirbelsäule. Es gibt ein Wechselspiel zwischen unseren Organen und unserem Bewegungsapparat. So können zum Beispiel Verspannungen und Vernarbungen im Unterbauch zu chronischen Kreuzschmerzen führen. Oder Blockierungen in der Brustwirbelsäule lösen Herzschmerzen und Atembeschwerden aus. Verspannungen und Blockierungen der Halswirbelsäule wiederum haben Einfluss auf den ganzen Körper und den Kopf. Bei dieser osteopathischen Therapie geht es nun darum, die Zusammenhänge bei Ihnen zu erkennen und zu beheben. Nach einem Gespräch führe ich die Untersuchung durch, die oft unmerklich in die Behandlung übergeht.",
-        "price": "70",
-        "time": "50"
+        "desc": "Bei dieser osteopathischen Behandlung geht es um die Zusammenhänge der inneren Organe mit der Wirbelsäule. Es gibt ein Wechselspiel zwischen unseren Organen und unserem Bewegungsapparat. So können zum Beispiel Verspannungen und Vernarbungen im Unterbauch zu chronischen Kreuzschmerzen führen. Blockierungen in der Brustwirbelsäule lösen Herzschmerzen und Atembeschwerden aus. Verspannungen und Blockierungen der Halswirbelsäule wiederum haben Einfluss auf den ganzen Körper und den Kopf. Bei dieser Osteopathischen Therapie geht es nun darum, die Zusammenhänge bei Ihnen zu erkennen und zu beheben. Nach einem Gespräch führe ich die Untersuchung durch, die oft unmerklich in die Behandlung übergeht",
+        "times": "50min"
       },
       {
         "name": "Original Faszientherapie nach Typaldos",
         "alias": "original-faszientherapie",
-        "desc": "Faszien sind oberflächliche und tiefe Bindegewebsschichten die sich durch den ganzen Körper ziehen und alle miteinander verbunden sind. Störungen der Faszien können zu einer veränderten Körperwahrnehmung führen, die mit Instabilität, geminderter Kraft, gestörter Feinmotorik, Schmerz oder auch mit Missempfindungen (brennendes Gefühl, Kribbeln, Taubheit) in verschiedenen Körperregionen einhergehen kann. Als Folge von Unfällen, Bewegungsmangel, Stress, Zufuhr von chemischen Substanzen wie Medikamenten oder Giften, können Faszien verkleben, verfilzen und sich verdrehen und in einander haken. Die Faszien sind so nicht mehr voll funktionsfähig. Dies führt zu Schmerzen, Bewegungseinschränkung, Schwäche, Verminderung der Feinmotorik und Instabilität. Spezielle manuelle Techniken können diese Veränderungen rückgängig machen.",
-        "price": "70",
-        "time": "50"
+        "desc": "Faszien sind oberflächliche und tiefe Bindegewebsschichten die sich durch den ganzen Körper ziehen und alle miteinander verbunden sind. Störungen der Faszien können zu einer veränderten Körperwahrnehmung führen, die mit Instabilität, geminderter Kraft, gestörter Feinmotorik, Schmerz oder auch mit Missempfindungen (brennendes Gefühl, Kribbeln, Taubheit) in verschiedenen Körperregionen einhergehen kann. Als Folge von Unfällen, Bewegungsmangel, Stress, Zufuhr von chemischen Substanzen wie Medikamenten oder Giften, können Faszien verkleben, verfilzen und sich verdrehen und in einander haken. Die Faszien sind so nicht mehr voll funktionsfähig. Dies führt zu Schmerzen, Bewegungseinschränkung, Schwäche, Verminderung der Feinmotorik und Instabilität. Spezielle manuelle Techniken können diese Veränderungen rückgängig machen. ",
+        "times": "50min"
+      },
+      {
+        "name": "Krankheiten die besonders gut auf die Faszientherapie ansprechen:",
+        "desc": "Schulterschmerzen- Wirbelsäulenschmerzen- Handgelenk-/Daumenschmerzen - Ellenbogenschmerzen- Knieschmerzen- Sprunggelenksschmerzen- Muskelschmerzen- Rücken-/Beckenschmerzen- Diffuse Schmerzen und andere Symptome  nach Stürzen und Unfällen"
       }
     ]
   },
   {
-    "name": "Bachblütentherapie & Schüssler Salze & Homöopathie",
-    "alias": "bachbluetentherapie-schuessler-salze-homoeopathie",
-    "image": "kategorien/bachblueten.jpg",
-    "image_small": "kategorien/bachblueten_klein.jpg",
-    "pageTitle": "Massage- & Naturheilpraxis - Bachblütentherapie & Schüssler Salze & Homöopathie",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "name": "Matrix- Rythmustherapie nach Dr. Randoll, Lasertherapie",
+    "alias": "rythmustherapie-dr-randoll-lasertherapie",
+    "style": "vertical",
+    "image": "naturheilpraxis19/Karpaltunnelsyndrom_LN.jpg",
+    "image_small": "naturheilpraxis19/Karpaltunnelsyndrom_LN.jpg",
+    "pageTitle": "Massage- & Naturheilpraxis - Matrix- Rythmustherapie nach Dr. Randoll und Lasertherapie",
+    "pageDescription": "Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
-    "description": "Bei einer kosmetischen Gesichtsbehandlung erfolgt eine Tiefenreinigung der Haut. Es wird außerdem die Durchblutung verbessert, was den Teint frischer wirken lässt. Bei der Gesichtsmassage entspannen sich nicht nur die Gesichtszüge, sondern der ganze Mensch.",
     "services": [
       {
-        "name": "Kinesio-Taping",
-        "alias": "kinesio-taping",
-        "desc": "Beim Kinesio-Tapinjg werden elastische Bänder in unterschiedlichen Mustern auf die Haut geklebt. Dadurch wird der Lymphfluss im behandelten Bereich angeregt. Mit der Lymphe werden Entzündungsstoffe aus dem therapierten Gebiet abtransportiert. Die Schmerzlinderung und Heilung wird unterstützt. Der behandelte Bereich ist weiterhin beweglich, wird aber trotzdem gestützt. Sehr zu empfehlen ist das Taping in Verbindung mit Osteopathie oder Massage, aber auch bei Verletzungen oder chronischen Schmerzen einzelner Gelenke.",
-        "services": [
-          {
-            "name": "Zeit und Preis je nach Aufwand ab",
-            "price": "15"
-          }
-        ]
+        "name": "Matrix- Rythmustherapie nach Dr. Randoll",
+        "desc": "Die Matrixtherapie wird mit dem Matrixmobilgerät durchgeführt. Die Behandlung beruht auf Schwingungen und Vibrationen, die bis in die Tiefe des Körpers gehen. Eine tiefgehende aber schmerzfreie Behandlung, die als sehr angenehm und schnell wirksam empfunden wird. Sie kann sehr gut andere Therapien wie etwa Massagen, Lasertherapie oder Osteopathie unterstützen, oder auch als einzelne Therapie angewandt werden.Sehr gute Erfahrungen habe ich nicht nur im Bereich Muskel- und Gelenkerkrankungen, sondern auch zum Lösen von Schleim bei akuter oder chronischer Bronchitis und Sinusitis, sowie bei Kiefergelenksproblemen. Weiter Informationen erhalten Sie unter: www.marhythe-systems.de www.matrix-healthpartner.com/category/patienten-berichten/"
       },
       {
-        "name": "Bachblütentherapie - Die Seele ins Gleichgewicht bringen",
-        "alias": "bachbluetentherapie",
-        "desc": "Dr. Bach erkannte, das seelische Ungleichgewichte für das Auftreten von Krankheiten verantwortlich sein können. Bachblüten helfen, mit negativen Gefühlen (z.B. Angst, Unsicherheit, Ungeduld, Trauer, Hoffnungslosigkeit usw.) besser klar zu kommen. Die Bachblüten helfen insbesondere bei großen Umbrüchen in der Lebensplanung wie z.B. Berufswechsel, Trennungen, Familienplanung, während oder nach überstandenen Krankheiten, psychischen Belastungen, in der Pubertät und den Wechseljahren. Nach einem ausführlichen Gespräch werden die für Sie in Frage kommenden Bachblüten kinesiologisch ausgetestet. Sie erhalten Ihre persönliche fertig gemixte Bachblüten-mischung sofort zum Mitnehmen.",
-        "price": "70",
-        "time": "50"
-      },
-      {
-        "name": "Schüssler Salze & Homöopathie",
-        "alias": "schuessler-salze-homoeopathie",
-        "desc": "Die Biochemie nach Dr. Schüssler ist ein sehr umfassendes Gebiet. Eingesetzt bei akuten Erkrankungen, genauso wie bei chronischen Prozessen wirken diese Salze bei Kindern genauso wie bei Erwachsenen und alten Menschen. Sie können einzeln, aber auch in Kombination oder als Kur eingesetzt werden. Da sie schulmedizinische Medikamente nicht beeinflussen, lassen sich die Schüssler Salze sehr gut zusätzlich einsetzen. Auch als Salben, Cremes oder Lotionen entfalten sie ihre volle Wirksamkeit. Ähnlich verhält es sich mit homöopatischen Einzel oder Komplexmitteln, die sich sehr gut mit Schüssler Salzen oder Bachblüten kombinieren lassen.",
-        "price": "70",
-        "time": "50"
+        "name": "Lasertherapie",
+        "desc": "Die LASERNEEDLE Technologie erlaubt die zielgerichtete und präzise Einstrahlung des Laserlichts in den Gelenkspalt. Dadurch werden auch tiefer liegende Geweberegionen im Gelenk erreicht, wo sich die maximale Heilwirkung unmittelbar entfalten kann. Die Bestrahlung des betroffenen Gewebes kann von mehreren Seiten gleichzeitig erfolgen. Dadurch wird eine gleichmäßige Durchblutung des betroffenen Gelenks erreicht. Der Laser wirkt durchblutungssteigernd, entzündungshemmend, schmerzlindernd und abschwellend. Die Behandlung ist nicht invasiv, schmerz- und nebenwirkungsfrei. Wenige Behandlungen reichen bereits aus, um Schmerzen zu lindern und die Beweglichkeit zu verbessern.Weitere Informationen finden Sie unter: www.laserneedle.eu"
       }
     ]
   },
   {
-    "name": "Behandlungskombinationen",
-    "alias": "behandlungskombinationen",
-    "image": "new0909/services/verwohnprogramme.jpg",
-    "image_small": "mechanischewelle.jpg",
-    "pageTitle": "Massage- & Naturheilpraxis - Behandlungskombinationen",
-    "pageDescription": "Entspannen und wohlfühlen in der Wellness Oase auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
+    "name": "Akupunktur",
+    "alias": "akupunktur",
+    "style": "vertical",
+    "image": "naturheilpraxis19/akupunktur.jpg",
+    "image_small": "naturheilpraxis19/akupunktur.jpg",
+    "pageTitle": "Massage- & Naturheilpraxis - Akupunktur",
+    "pageDescription": "Entspannen und wohlfühlen in der Massage und Naturheilpraxis auf Rügen. Das Motto von Heilpraktikerin Sylke Scheduikat lautet 'Es ist immer der Mensch der wichtigste, den wir gerade behandeln'.",
     "pageKeywords": "wellness, oase, rügen, breege, julusruh, kosmetik, heilkreide, romantik, massage, sylke, scheduikat, naturheilpraxis, heilpraktiker, osteopathie, homöopathie, reiki, craniosacral, kreide, physiotherapie, dr spiller, craniosacrale therapie, sanddorn, rügener heilkreide",
     "services": [
       {
-        "name": "DER RÜCKEN WIRD ES DANKEN",
-        "alias": "der-ruecken-wird-es-danken",
-        "desc": "Für dieses Programm benötigen wir 3 Behandlungstage!<br>Einführungsgespräch<br>3x warme Rückenpackung mit Rügener Heilkreide<br>3x individuelle Rückenmassage entsprechend ihrer Probleme",
-        "price": "160",
-        "time": "3X 60",
-        "info": "An jedem der 3 Tage dauert die Behandlung ca. 60 min"
+        "name": "Akupunktur nach TCM (Traditioneller chinesischer Medizin)",
+        "desc": "Akupunktur als Teil der Traditionellen Chinesischen Medizin (TCM) ist eine seit mehr als 2000 Jahren bewährte medizinische Heilweise, die durch das Nadeln spezifischer Punkte die körpereigenen Heilungskräfte aktiviert und die Gesundheit erhält oderwiederherstellt. Durch die Nadelung oder Erwärmung (Moxibustion) dieser Punkte wird der Organismus gezielt dazu angeregt sich selbst wieder ins Gleichgewicht zu bringen."
       },
       {
-        "name": "Sanft Entschlacken",
-        "alias": "sanft-entschlacken",
-        "desc": "Einführungsgespräch<br>Ganzkörper Lymphdrainage (Entstauungsmassage)<br>entschlackende Rügener Heilkreide Ganzkörperpackung<br>basische Gesichtbehandlung",
-        "price": "180",
-        "time": "3x 60",
-        "info": "Gesamtbehandlungszeit 3x ca. 1 Stunde"
+        "name": "Akupunktur in der akuten Schmerztherapie",
+        "desc": "Akupunktur kann ich als alleinige Therapie oder unterstützend mit anderen Therapien bei akuten Beschwerden einsetzen. Dazu reicht eine kurze Befundaufnahme. Zum Beispiel beim umgeknickten Fuß, Kopfschmerzen, Erkältungen etc."
       },
       {
-        "name": "Entspannt und schmerzfrei",
-        "alias": "entspannt-schmerzfrei",
-        "desc": "Einführungsgespräch<br>Osteopatische Ganzheitstherapie<br>Anti Stressmassage<br>individuelle Rückenmassage entsprechend Ihrer Beschwerden<br>Rückenpackung mit Rügener Heilkreide",
-        "price": "180",
-        "time": "3x 60",
-        "info": "Gesamtbehandlungszeit 3x ca. 1 Stunde"
+        "name": "Akupunktur bei chronischen Erkrankungen",
+        "desc": "Wenn Sie länger bestehende Erkrankungen therapieren lassen möchten, müssen wir nach der Ursache suchen. Das Gleiche gilt wenn mehrere Erkrankungen vorliegen oder einige Symptome immer wieder auftauchen. Dazu machen wir dann eine sehr genaue Befundaufnahme (ca. 1,5 - 2 Stunden) und ich erstelle im Anschluss einen Behandlungsplan. Die Befundaufnahme besteht aus einem ausführlichen Gespräch, Zungen- und Pulsdiagnose, ev. körperliche Untersuchung. Der Behandlungsplan besteht dann aus Akupunkturbehandlung, Beratung zur Ernährung (Chinesische Diäthetik- hat nichts mit der Diät im deutschen Sinne zu tun), Lebensweise, ev. Schröpfen, Massagen, chinesische Kräuterrezepturen."
       },
-
       {
-        "name": "Stressfrei",
-        "alias": "stressfrei",
-        "desc": "Einführungsgespräch mit der Heilpraktikerin<br>Schulter- Nacken- Kopfmassage<br>Gesichtslymphdrainage<br>craniosacrale Therapie (sanfte Osteopathie)<br>Bachblütentherapie",
-        "price": "180",
-        "time": "3x 60",
-        "info": "Gesamtbehandlungszeit 3x ca. 1 Stunde"
+        "name": "Akupunktur mit der Lasertherapie",
+        "desc": "In meiner Praxis steht auch ein Lasertherapiegerät zur Verfügung. So habe ich die Möglichkeit empfindsame Menschen sowie Kinder mit dem Akupunkturlaser absolut schmerzfrei zu behandeln."
       }
     ]
   }

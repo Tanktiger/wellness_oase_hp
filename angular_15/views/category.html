@@ -6,7 +6,7 @@
             <div ng-if="category.style && category.style == 'vertical'" class="vertical-design" data-ng-include="'views/tpl/category_body_vertical.html'"> </div>
             <div id="serviceButtonGroup">
                 <div class="large-box">
-                    <div class="large-inner-box">
+                    <div class="large-inner-box text-center">
                         <div class="button button-large dplib"><span><a href="#" ui-sref="main.contact" title="Termin anfragen">Termin/Gutschein anfragen</a></span></div>
                     </div>
                     <div class="clear"> </div>
@@ -19,12 +19,6 @@
                         <li ng-repeat="product in products"><a href="#" ui-sref="main.category({alias: product.alias})" title="{{ product.name }}">{{ product.name }}</a></li>
                     </ul>
                     <div class="button dplib"><span><a href="#" ui-sref="main.gallery" title="Wellness Oase Gallerie">Bildergalerie</a></span></div>
-                </div>
-                <div class="clear"> </div>
-            </div>
-            <div class="large-box">
-                <div class="large-inner-box">
-                    <span>* nicht in der Wellness-Oase "Sandstrand Ostseeperle" in Glowe möglich!</span>
                 </div>
                 <div class="clear"> </div>
             </div>
