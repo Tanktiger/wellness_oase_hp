@@ -8,8 +8,6 @@ var app = angular.module("app", [
     "oc.lazyLoad",
     "ngSanitize",
     'ngCookies',
-    'angulartics',
-    'angulartics.google.analytics'
 ]);
 
 /* Configure ocLazyLoader(refer: https://github.com/ocombe/ocLazyLoad) */
